@@ -31,7 +31,7 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
-<title>{{ seo_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>Integrated Methane Inversion</title>
 <meta name="description" content="{{ seo_description }}">
 
 {% if author.name %}
@@ -127,4 +127,5 @@
 {% if site.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}">
 {% endif %}
+<link rel="icon" href="../assets/logos/imi_logo_fullres.png">
 <!-- end _includes/seo.html -->
