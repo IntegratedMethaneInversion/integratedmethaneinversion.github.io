@@ -1,33 +1,154 @@
 ---
-layout: home
+layout: default
 author_profile: false
 ---
 
-<h2>What is the IMI?</h2>
+<style>
+  .pageWrapper {
+    padding: 5% 15%;
+  }
 
-<p>The Integrated Methane Inversion (IMI) is a community cloud-computing tool for estimating regional methane emissions by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders to infer methane emissions at 0.25° × 0.3125° (≈ 25 × 25 km2) resolution from <a href = "https://registry.opendata.aws/sentinel5p/">TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud</a>, without requiring expert knowledge of inverse methods or cumbersome data download. The IMI uses the <a href = "https://imi.seas.harvard.edu/imi/geos-chem.org">GEOS-Chem 3-D chemical transport model</a> as forward model for the inversion.</p>
+  #twoColumnContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-<h2>Access</h2>
+  @media (max-width: 768px) {
+    #twoColumnContent {
+      flex-direction: column;
+      border: solid red 5px;
+    }
 
-<strong>The IMI is completely open-source with IMI v1.1 being freely accessible via the AWS Marketplace. IMI v2.0 is planned to be released soon with <a href = "/new_developments">major updates</a>.</strong>
+    #plot {
+        display: none;
+    }
+    
+  }
+</style>
 
-<p>To get started with the IMI, see our documentation on the <a href = "https://imi.readthedocs.io/en/latest/">IMI readthedocs site</a>, which gives more technical information on configuration variables, how to set up AWS instances, and output data types.</p>
+<div class="pageWrapper">
+  <div id="twoColumnContent">
+    <div style="width: 50%">
+      <h1>What is the <br> <span style = "color: #98C89A">Integrated Methane Inversion</span>?</h1>
 
-<ul>
-    <li>To view the source code for the IMI, visit our <a href = "https://github.com/geoschem/integrated_methane_inversion">GitHub repo</a>.</li>
-    <li>For a high-level scientific description, <a href = "https://gmd.copernicus.org/preprints/gmd-2022-45/">see our IMI research paper</a>.</li>
-</ul>
+      <p>
+        The Integrated Methane Inversion (IMI) is a community cloud-computing
+        tool for estimating regional methane emissions by analytical inversion
+        of satellite observations from the TROPOspheric Monitoring Instrument
+        (TROPOMI). It enables researchers and stakeholders to infer methane
+        emissions at 0.25° × 0.3125° (≈ 25 × 25 km2) resolution from
+        <a href="https://registry.opendata.aws/sentinel5p/"
+          >TROPOMI satellite data resident on the Amazon Web Services (AWS)
+          cloud</a
+        >, without requiring expert knowledge of inverse methods or cumbersome
+        data download. The IMI uses the
+        <a href="https://imi.seas.harvard.edu/imi/geos-chem.org"
+          >GEOS-Chem 3-D chemical transport model</a
+        >
+        as forward model for the inversion.
+      </p>
+    </div>
+    <div id = "plot" style="width: 40%">
+      <img src="/assets/plots/example_posterior.png" alt="" />
+    </div>
+  </div>
 
-<p style = "border: solid #3B72B4 4px; padding: 7px;">We encourage new users to email us at <a href = "mailto:integrated-methane-inversion@g.harvard.edu">integrated-methane-inversion@g.harvard.edu</a> with a description of your project. This helps us identify priorities for new features and updates. <br><br> <strong>User technical support can also be provided via this email.</strong> </p>
+  <div id="twoColumnContent">
+    <div id = "plot" style="width: 40%">
+      <img src="/assets/plots/sectoral.png" alt="" />
+    </div>
+    <div style="width: 50%">
+      <h1>How do I <span style = "color: #98C89A">Access</span>?</h1>
 
-<h2>Collaboration</h2>
-<p>The IMI is a contribution to the NASA Carbon Monitoring System and a collaboration between the Harvard Atmospheric Chemistry Modeling Group (ACMG) and the Netherlands Institute for Space Research (SRON). ACMG development of the IMI is supported in part by ExxonMobil Technology and Engineering Company.</p>
+      <strong
+        >The IMI is completely open-source with IMI v1.2.1 being freely accessible
+        via the AWS Marketplace. IMI v2.0 is planned to be released soon with
+        <a href="/new_developments">major updates</a>.</strong
+      >
 
-<hr>
-<div style = "height: 100px; display: flex; justify-content: space-evenly; align-items: center;">
-    <img src="/assets/logos/ACMG_logo_transparent.png" alt="" class="collab_icon" style = "height: 70px !important;">
-    <img src="/assets/logos/exxon.png" alt="" class="collab_icon">
-    <img src="/assets/logos/cmslogotransparent_dark.png" alt="" class="collab_icon">
-    <img src="/assets/logos/sron.png" alt="" class="collab_icon">
+      <p>
+        To get started with the IMI, see our documentation on the
+        <a href="https://imi.readthedocs.io/en/latest/">IMI readthedocs site</a
+        >, which gives more technical information on configuration variables,
+        how to set up AWS instances, and output data types.
+      </p>
+
+      <ul>
+        <li>
+          To view the source code for the IMI, visit our
+          <a href="https://github.com/geoschem/integrated_methane_inversion"
+            >GitHub repo</a
+          >.
+        </li>
+        <li>
+          For a high-level scientific description,
+          <a href="https://gmd.copernicus.org/preprints/gmd-2022-45/"
+            >see our IMI research paper</a
+          >.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: center">
+    <p style="border: solid #3b72b4 4px; padding: 7px; width: 80%">
+      We encourage new users to email us at
+      <a href="mailto:integrated-methane-inversion@g.harvard.edu"
+        >integrated-methane-inversion@g.harvard.edu</a
+      >
+      with a description of your project. This helps us identify priorities for
+      new features and updates. <br /><br />
+      <span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-right: 10px;"></span><strong
+        >User technical support can also be provided via this email.</strong
+      >
+    </p>
+  </div>
+
+  <div style = "display: flex; justify-content: center;">
+    
+    <div style = "width: 70%;">
+      <h2>Collaboration</h2>
+      <p>
+        The IMI is a contribution to the NASA Carbon Monitoring System and a
+        collaboration between the Harvard Atmospheric Chemistry Modeling Group
+        (ACMG) and the Netherlands Institute for Space Research (SRON). ACMG
+        development of the IMI is supported in part by ExxonMobil Technology and
+        Engineering Company.
+      </p>
+  
+      <hr />
+      <div
+        style="
+          height: 100px;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+        "
+      >
+      <a href="https://acmg.seas.harvard.edu/" target = "#">
+            <img
+            src="/assets/logos/ACMG_logo_transparent.png"
+            alt=""
+            class="collab_icon"
+            style="height: 70px !important"
+            />
+        </a>
+        <a href="https://corporate.exxonmobil.com/" target = "#">
+            <img src="/assets/logos/exxon.png" alt="" class="collab_icon" />
+        </a>
+        <a href = "https://carbon.nasa.gov/cms/" target="#">
+
+            <img
+              src="/assets/logos/cmslogotransparent_dark.png"
+              alt=""
+              class="collab_icon"
+            />
+        </a>
+        <a href="https://www.sron.nl/" target = "#">
+            <img src="/assets/logos/sron.png" alt="" class="collab_icon" />
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-
