@@ -7,7 +7,7 @@ permalink: /people/
 <h2 style="text-align: center">Our Team</h2>
 <div class="team-member-container" style="margin-top: 2rem">
     <div class="team-member">
-        <img src="/assets/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://acmg.seas.harvard.edu/">Daniel Jacob</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:djacob@fas.harvard.edu">
@@ -22,7 +22,7 @@ permalink: /people/
     </div>
     
     <div class="team-member">
-        <img src="/assets/people/varon.png" alt="Daniel Varon" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/varon.png" alt="Daniel Varon" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.varon.org/">Daniel Varon</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:danielvaron@g.harvard.edu">
@@ -39,7 +39,7 @@ permalink: /people/
     </div>
     
     <div class="team-member">
-        <img src="/assets/people/estrada.jpeg" alt="Lucas Estrada" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/estrada.jpeg" alt="Lucas Estrada" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://laestrada.github.io/">Lucas Estrada</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:lestrada@g.harvard.edu">
@@ -57,7 +57,7 @@ permalink: /people/
     </div>
 
     <div class="team-member">
-        <img src="/assets/people/sulprizio.jpeg" alt="Melissa Sulprizio" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/sulprizio.jpeg" alt="Melissa Sulprizio" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://msulprizio.github.io/">Melissa Sulprizio</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:mpayer@seas.harvard.edu">
@@ -75,7 +75,7 @@ permalink: /people/
     </div>
     
     <div class="team-member">
-        <img src="/assets/people/thomas.jpeg" alt="John Thomas" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/thomas.jpeg" alt="John Thomas" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/john-steed-thomas/">John Thomas</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:johnthomas@seas.harvard.edu">
@@ -92,7 +92,7 @@ permalink: /people/
     </div>
 
     <div class="team-member">
-        <img src="/assets/people/ilse.jpeg" alt="Ilse Aben" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/ilse.jpeg" alt="Ilse Aben" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/ilse-aben-95a099223/">Ilse Aben</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="https://www.linkedin.com/in/ilse-aben-95a099223/">
@@ -103,7 +103,7 @@ permalink: /people/
     </div>
 
     <div class="team-member">
-        <img src="/assets/people/bram.jpeg" alt="Bram Maasakkers" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/bram.jpeg" alt="Bram Maasakkers" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/jdmaasakkers/">Bram Maasakkers</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:j.d.maasakkers@sron.nl">
