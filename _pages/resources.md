@@ -10,7 +10,7 @@ permalink: /resources/
 - [IMI GitHub repository](https://github.com/ACMG-CH4/CH4_inversion_workflow)
 - [IMI Amazon Machine Image (free) Listing](https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba)
 
-### [IMI Research Paper: Varon et al. (2022)](https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html):
+### [IMI 1.0 Paper: Varon et al. (2022)](https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html):
 
 Cite as:
 
