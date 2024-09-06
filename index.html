@@ -21,16 +21,18 @@ author_profile: false
     }
 
     #plot {
-        display: none;
+      display: none;
     }
-    
   }
 </style>
 
 <div class="pageWrapper">
   <div id="twoColumnContent">
     <div style="width: 50%">
-      <h1>What is the <br> <span style = "color: #98C89A">Integrated Methane Inversion</span>?</h1>
+      <h1>
+        What is the <br />
+        <span style="color: #98c89a">Integrated Methane Inversion?</span>
+      </h1>
 
       <p>
         The Integrated Methane Inversion (IMI) is a community cloud-computing
@@ -49,22 +51,80 @@ author_profile: false
         as forward model for the inversion.
       </p>
     </div>
-    <div id = "plot" style="width: 40%">
-      <img src="{{ site.baseurl }}/assets/plots/example_posterior.png" alt="" />
+    <div id="plot" style="width: 40%">
+      <img
+        src="{{ site.baseurl }}/assets/plots/model.png"
+        alt="IMI model"
+        style="transform: scale(1.2)"
+      />
     </div>
   </div>
 
   <div id="twoColumnContent">
-    <div id = "plot" style="width: 40%">
-      <img src="{{ site.baseurl }}/assets/plots/sectoral.png" alt="" />
+    <div
+      id="plot"
+      style="
+        width: 40%;
+        border: solid #98c89a 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 25px 5px rgba(152, 200, 154, 0.5);
+      "
+    >
+      <div>
+        <h2 style="margin-top: 0.8rem">What can I expect?</h2>
+        <ul>
+          <li>Total regional methane emissions</li>
+          <li>25-km² resolution</li>
+          <li>High temporal resolution</li>
+        </ul>
+      </div>
     </div>
     <div style="width: 50%">
-      <h1>How do I <span style = "color: #98C89A">Access</span>?</h1>
+      <h1>How do I <span style="color: #98c89a">Access?</span></h1>
+      <strong>
+        The IMI is an open-source software project and freely accessible via the
+        <a
+          href="https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba?sr=0-1&ref_=beagle&applicationId=AWS-Marketplace-Console"
+          target="#"
+          >AWS Marketplace</a
+        >.
+      </strong>
 
-      <strong
-        >The IMI is completely open-source with IMI v1.2.1 being freely accessible
-        via the AWS Marketplace. IMI v2.0 is planned to be released soon with
-        <a href="/new_developments">major updates</a>.</strong
+      <p>
+        To get started with the IMI, read the documentation on the <a
+          href="https://imi.readthedocs.io/en/dev-2.0/index.html"
+          target="#"
+          >IMI readthedocs site</a
+        >. Instructions are provided to configure the IMI, run it on AWS, and
+        visualize output.
+      </p>
+
+      <ul>
+        <li>
+          To view the IMI source code, visit our <a
+            href="https://github.com/ACMG-CH4/CH4_inversion_workflow"
+            target="#"
+            >GitHub repo.</a
+          >
+        </li>
+        <li>
+          For a high-level scientific description, see the IMI development
+          papers by
+          <a
+            href="https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html"
+            target="#"
+            >Varon et al. (2022)</a
+          >
+          and Estrada et al. (2024).
+        </li>
+      </ul>
+      <!-- <strong
+        >The IMI is completely open-source with IMI v1.2.1 being freely
+        accessible via the AWS Marketplace. IMI v2.0 is planned to be released
+        soon with <a href="/new_developments">major updates</a>.</strong
       >
 
       <p>
@@ -87,7 +147,7 @@ author_profile: false
             >see our IMI research paper</a
           >.
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 
@@ -99,24 +159,37 @@ author_profile: false
       >
       with a description of your project. This helps us identify priorities for
       new features and updates. <br /><br />
-      <span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-right: 10px;"></span><strong
+      <span
+        ><img
+          src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg"
+          style="
+            height: 25px;
+            width: 25px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+          " /></span
+      ><strong
         >User technical support can also be provided via this email.</strong
       >
     </p>
   </div>
 
-  <div style = "display: flex; justify-content: center;">
-    
-    <div style = "width: 70%;">
+  <div style="display: flex; justify-content: center">
+    <div style="width: 70%">
       <h2>Collaboration</h2>
       <p>
         The IMI is a contribution to the NASA Carbon Monitoring System and a
-        collaboration between the Harvard Atmospheric Chemistry Modeling Group
+        collaboration between the
+        <strong
+          ><a href="https://acmg.seas.harvard.edu/" target="#"
+            >Harvard Atmospheric Chemistry Modeling Group</a
+          ></strong
+        >
         (ACMG) and the Netherlands Institute for Space Research (SRON). ACMG
         development of the IMI is supported in part by ExxonMobil Technology and
         Engineering Company.
       </p>
-  
+
       <hr />
       <div
         style="
@@ -126,27 +199,27 @@ author_profile: false
           align-items: center;
         "
       >
-      <a href="https://acmg.seas.harvard.edu/" target = "#">
-            <img
+        <a href="https://acmg.seas.harvard.edu/" target="#">
+          <img
             src="{{ site.baseurl }}/assets/logos/ACMG_logo_transparent.png"
             alt=""
             class="collab_icon"
             style="height: 70px !important"
-            />
+          />
         </a>
-        <a href="https://corporate.exxonmobil.com/" target = "#">
-            <img src="{{ site.baseurl }}/assets/logos/exxon.png" alt="" class="collab_icon" />
+        <a href="https://carbon.nasa.gov/cms/" target="#">
+          <img
+            src="{{ site.baseurl }}/assets/logos/cmslogotransparent_dark.png"
+            alt=""
+            class="collab_icon"
+          />
         </a>
-        <a href = "https://carbon.nasa.gov/cms/" target="#">
-
-            <img
-              src="{{ site.baseurl }}/assets/logos/cmslogotransparent_dark.png"
-              alt=""
-              class="collab_icon"
-            />
-        </a>
-        <a href="https://www.sron.nl/" target = "#">
-            <img src="{{ site.baseurl }}/assets/logos/sron.png" alt="" class="collab_icon" />
+        <a href="https://www.sron.nl/" target="#">
+          <img
+            src="{{ site.baseurl }}/assets/logos/sron.png"
+            alt=""
+            class="collab_icon"
+          />
         </a>
       </div>
     </div>

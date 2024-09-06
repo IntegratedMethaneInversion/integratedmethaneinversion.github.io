@@ -2,6 +2,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Releases"
+    url: /releases/
   - title: "New Developments"
     url: /new_developments/
   - title: "People"
