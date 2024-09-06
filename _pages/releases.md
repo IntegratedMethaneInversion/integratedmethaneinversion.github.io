@@ -44,7 +44,7 @@ IMI 2.0 is now in beta testing with a host of new capabilities, including:
 
 </p>
 
-<h2 id = "new_developments">Current Stable Release<span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/house.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-left: 10px;"></span></h2>
+<h2 id = "new_developments">Previous Releases<span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/house.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-left: 10px;"></span></h2>
 
 <div style = "display: flex; justify-content: left; gap: 1.5rem; align-items: center; margin-bottom: 1.5rem">
 

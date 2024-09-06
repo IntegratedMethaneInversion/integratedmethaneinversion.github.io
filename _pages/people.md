@@ -8,7 +8,7 @@ permalink: /people/
 <h2 style="text-align: center">Our Team</h2>
 <div class="team-member-container" style="margin-top: 2rem">
     <div class="team-member">
-        <img src="/assets/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
+        <img src="{{ site.baseurl }}/assets/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://acmg.seas.harvard.edu/">Daniel Jacob</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:djacob@fas.harvard.edu">
