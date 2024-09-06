@@ -27,6 +27,10 @@ IMI 2.0 is now in beta testing with a host of new capabilities, including:
 <strong>Continuous emission monitoring</strong>: IMI 2.0 introduces a Kalman filter feature to regularly quantify emissions from a region of interest with low latency (e.g., weekly, monthly estimates).
 </li>
 <li>
+<strong>Improved Computational Efficiency</strong>: The construction of the Jacobian matrix, a key computational step, has been sped up by an order of magnitude, making the inversion process significantly faster.
+</li>
+
+<li>
 <strong>Global inversions</strong>: IMI 2.0 supports global methane inversions in addition to regional.
 </li>
 <li>
@@ -36,7 +40,7 @@ IMI 2.0 is now in beta testing with a host of new capabilities, including:
 <strong>Optimization of boundary conditions</strong>: IMI 2.0 allows users to optimize methane boundary conditions as part of the inversion, improving accuracy of the results for emissions.
 </li>
 <li>
-<strong>And much more</strong>: See the IMI 2.0 development paper by Estrada et al. (2024) for more information.
+<strong>And much more</strong>: See the IMI 2.0 development paper by <a href = "https://acmg.seas.harvard.edu/sites/projects.iq.harvard.edu/files/acmg/files/estrada2024_imi.pdf" target = "#">Estrada et al. (2024)</a> for more information.
 
 </li>
 
