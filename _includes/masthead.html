@@ -3,27 +3,57 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" style = "display: flex !important; align-items: center !important;">
-          <a class="site-logo" style = "height: 30px; width: auto; margin-top: -25px" href="{{ '/' | relative_url }}"><img src="{{ site.baseurl }}/assets/logos/imi_logo_fullres.png" alt = "IMI logo"></a>
-        <ul class="visible-links" style = "padding-top: 2rem">
+      <nav
+        id="site-nav"
+        class="greedy-nav"
+        style="display: flex !important; align-items: center !important"
+      >
+        <a
+          class="site-logo"
+          style="height: 30px; width: auto; margin-top: -25px"
+          href="{{ '/' | relative_url }}"
+          ><img src="/assets/logos/imi_logo_fullres.png" alt="IMI logo"
+        /></a>
+        <ul class="visible-links" style="padding-top: 2rem">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a
-                href="{{ link.url | relative_url }}"
-                {% if link.description %} title="{{ link.description }}"{% endif %}
-                {% if link.target %} target="{{ link.target }}"{% endif %}
-              >{{ link.title }}</a>
-            </li>
+          <li class="masthead__menu-item">
+            <a
+              href="{{ link.url | relative_url }}"
+              {%
+              if
+              link.description
+              %}
+              title="{{ link.description }}"
+              {%
+              endif
+              %}
+              {%
+              if
+              link.target
+              %}
+              target="{{ link.target }}"
+              {%
+              endif
+              %}
+              >{{ link.title }}</a
+            >
+          </li>
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <span class="visually-hidden"
+            >{{ site.data.ui-text[site.locale].search_label | default: "Toggle
+            search" }}</span
+          >
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <span class="visually-hidden"
+            >{{ site.data.ui-text[site.locale].menu_label | default: "Toggle
+            menu" }}</span
+          >
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
