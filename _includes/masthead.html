@@ -12,7 +12,9 @@
           class="site-logo"
           style="height: 30px; width: auto; margin-top: -25px"
           href="{{ '/' | relative_url }}"
-          ><img src="/assets/logos/imi_logo_fullres.png" alt="IMI logo"
+          ><img
+            src="{{ site.baseurl }}/assets/logos/imi_logo_fullres.png"
+            alt="IMI logo"
         /></a>
         <ul class="visible-links" style="padding-top: 2rem">
           {%- for link in site.data.navigation.main -%}
