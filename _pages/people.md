@@ -3,6 +3,7 @@ layout: default
 title: People
 permalink: /people/
 ---
+
 <hr>
 <h2 style="text-align: center">Our Team</h2>
 <div class="team-member-container" style="margin-top: 2rem">
@@ -71,9 +72,9 @@ permalink: /people/
             </a>
         </div>
         <p>Melissa is a Senior Scientific Software Engineer on the <a href="https://geoschem.github.io/">GEOS-Chem</a> Support Team.</p>
-        
+
     </div>
-    
+
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/thomas.jpeg" alt="John Thomas" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/john-steed-thomas/">John Thomas</a></p>
@@ -115,4 +116,5 @@ permalink: /people/
         </div>
         <p>Bram is a scientist at SRON Netherlands Institute for Space Research focusing on better understanding emissions of methane and carbon monoxide using observations from space.</p>
     </div>
+
 </div>
