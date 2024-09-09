@@ -19,15 +19,27 @@ IMI-2.0.0-beta.3
 </a>
 </div>
 
+<img src="{{ site.baseurl }}/assets/plots/IMI2.png" />
+
 <p>
 IMI 2.0 is now in beta testing with a host of new capabilities, including:
 
 <ul>
 <li>
+<strong>Improved TROPOMI observations</strong>: Users have the option of accessing the most recent operational product from SRON or a blended TROPOMI+GOSAT product constructed using machine learning (Balasus et al., 2023).
+</li>
+<li>
 <strong>Continuous emission monitoring</strong>: IMI 2.0 introduces a Kalman filter feature to regularly quantify emissions from a region of interest with low latency (e.g., weekly, monthly estimates).
 </li>
 <li>
-<strong>Improved Computational Efficiency</strong>: The construction of the Jacobian matrix, a key computational step, has been sped up by an order of magnitude, making the inversion process significantly faster.
+<strong>Optimization of methane sinks</strong>: Users can optimize methane sinks from oxidation by the hydroxyl radical and uptake by soils.
+</li>
+<li>
+<strong>Improved computational efficiency</strong>: The construction of the Jacobian matrix, a key computational step, has been sped up by an order of magnitude, making the inversion process much faster.
+</li>
+
+<li>
+<strong>Improved error characterization</strong>: IMI 2.0 has improved characterization of observational errors, allows users to use log-normal errors on emissions, and returns detailed error diagnostics on the results.
 </li>
 
 <li>
@@ -35,9 +47,6 @@ IMI 2.0 is now in beta testing with a host of new capabilities, including:
 </li>
 <li>
 <strong>Incorporation of point source observations</strong>: IMI 2.0 uses high-resolution point source observations to construct the state vector of emissions optimized in the inversion, improving the quantification of methane emissions where large point sources have been observed.
-</li>
-<li>
-<strong>Optimization of boundary conditions</strong>: IMI 2.0 allows users to optimize methane boundary conditions as part of the inversion, improving accuracy of the results for emissions.
 </li>
 <li>
 <strong>And much more</strong>: See the IMI 2.0 development paper by <a href = "https://acmg.seas.harvard.edu/sites/projects.iq.harvard.edu/files/acmg/files/estrada2024_imi.pdf" target = "#">Estrada et al. (2024)</a> for more information.

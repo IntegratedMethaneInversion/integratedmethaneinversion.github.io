@@ -1,5 +1,22 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+<style>
+  .greedy-nav__toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .visible-links {
+      display: none;
+      opacity: 0;
+    }
+
+    .greedy-nav__toggle {
+      display: block;
+    }
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -51,6 +68,7 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden"
             >{{ site.data.ui-text[site.locale].menu_label | default: "Toggle
@@ -58,8 +76,49 @@
           >
           <div class="navicon"></div>
         </button>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden">
+          {%- for link in site.data.navigation.main -%}
+          <li class="masthead__menu-item">
+            <a
+              href="{{ link.url | relative_url }}"
+              {%
+              if
+              link.description
+              %}
+              title="{{ link.description }}"
+              {%
+              endif
+              %}
+              {%
+              if
+              link.target
+              %}
+              target="{{ link.target }}"
+              {%
+              endif
+              %}
+              >{{ link.title }}</a
+            >
+          </li>
+          {%- endfor -%}
+        </ul>
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+  const menuButton = document.getElementById("menu-button");
+  const greedyNav = document.querySelector(".greedy-nav");
+  const greedyNavToggle = document.querySelector(".greedy-nav__toggle");
+  const hiddenLinks = document.querySelector(".hidden-links");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+  });
+
+  greedyNavToggle.addEventListener("click", () => {
+    hiddenLinks.classList.toggle("hidden");
+  });
+</script>
