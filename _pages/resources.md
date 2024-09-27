@@ -9,6 +9,7 @@ permalink: /resources/
 - [IMI Documentation](https://imi.readthedocs.io/en/latest/)
 - [IMI GitHub repository](https://github.com/ACMG-CH4/CH4_inversion_workflow)
 - [IMI Amazon Machine Image (free) Listing](https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba)
+- <a href = "{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pptx" download>IMI Introductory Slide Deck</a>
 
 ### [IMI 1.0 Paper: Varon et al. (2022)](https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html):
 

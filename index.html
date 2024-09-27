@@ -11,13 +11,29 @@ author_profile: false
   #twoColumnContent {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 50px;
+  }
+
+  #topTwoColumn {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 25px 5px rgba(152, 200, 154, 0.5);
+    padding: 25px;
   }
 
   @media (max-width: 768px) {
     .pageWrapper {
       padding: 5% 5%;
+      width: 100% !important;
+    }
+
+    #topTwoColumn {
+      flex-direction: column;
+      width: 100% !important;
+    }
+
+    #topTwoColumn > div {
       width: 100% !important;
     }
 
@@ -35,106 +51,18 @@ author_profile: false
     }
 
     #plot {
-      scale: 0.8 !important;
+      scale: 0.7 !important;
+    }
+
+    #secondPlot {
+      display: none;
     }
   }
 </style>
 
 <div class="pageWrapper">
-  <div id="twoColumnContent">
-    <div style="width: 50%">
-      <h1>
-        What is the <br />
-        <span style="color: #98c89a">Integrated Methane Inversion?</span>
-      </h1>
-      <!-- 
-      <p>
-        The Integrated Methane Inversion (IMI) is a community cloud-computing
-        tool for estimating regional methane emissions by analytical inversion
-        of satellite observations from the TROPOspheric Monitoring Instrument
-        (TROPOMI). It enables researchers and stakeholders to infer methane
-        emissions at 0.25° × 0.3125° (≈ 25 × 25 km²) resolution from
-        <a href="https://registry.opendata.aws/sentinel5p/"
-          >TROPOMI satellite data resident on the Amazon Web Services (AWS)
-          cloud</a
-        >, without requiring expert knowledge of inverse methods or cumbersome
-        data download. The IMI uses the
-        <a href="https://geoschem.github.io/"
-          >GEOS-Chem 3-D chemical transport model</a
-        >
-        as forward model for the inversion.
-      </p> -->
-      <p>
-        The Integrated Methane Inversion (IMI) is a user-friendly research-grade
-        cloud-computing tool for
-        <strong
-          >estimating total methane emissions for any domain and period of
-          interest</strong
-        >
-        by analytical inversion of satellite observations from the TROPOspheric
-        Monitoring Instrument (TROPOMI). It enables researchers and stakeholders
-        to
-        <strong
-          >infer methane emissions at up to 0.25° × 0.3125° (≈ 25 × 25 km²)
-          spatial resolution</strong
-        >
-        and up to weekly temporal resolution from
-        <a href="https://registry.opendata.aws/sentinel5p/"
-          >TROPOMI satellite data resident on the Amazon Web Services (AWS)
-          cloud</a
-        >, without requiring expert knowledge of inverse methods or cumbersome
-        data download. The IMI uses the
-        <a href="https://geoschem.github.io/"
-          >GEOS-Chem 3-D chemical transport model</a
-        >
-        driven by NASA Goddard Earth Observing System (GEOS) meteorological data
-        as a forward model for the inversion. It uses
-        <strong
-          >cutting-edge algorithms developed by the Harvard Atmospheric
-          Chemistry Modeling Group (ACMG)</strong
-        >
-        in collaboration with the Netherlands Institute for Space Research
-        (SRON) and documented extensively in the peer-reviewed research
-        literature. <br /><br />An IMI preview feature allows the users to
-        display the satellite observations for their domain and period of
-        interest along with prior emission inventories, point source data, and
-        expected information to be achieved from the inversion.
-      </p>
-    </div>
-    <div id="plot" style="width: 40%">
-      <img
-        src="{{ site.baseurl }}/assets/plots/model.png"
-        alt="IMI model"
-        style="transform: scale(1.4)"
-      />
-    </div>
-  </div>
-
-  <div id="twoColumnContent">
-    <div
-      id="plot"
-      style="
-        width: 40%;
-        border: solid #98c89a 5px;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0 25px 5px rgba(152, 200, 154, 0.5);
-      "
-    >
-      <div id="expectations">
-        <h2 style="margin-top: 0.8rem">What can I expect?</h2>
-        <ul>
-          <li>Total methane emissions in region of interest</li>
-          <li>Up to 25-km resolution weekly</li>
-          <li>Sectoral and point source identification</li>
-          <li>Detailed diagnostics</li>
-          <li>Error characterization in results</li>
-        </ul>
-      </div>
-    </div>
-    <div style="width: 50%; margin-top: 5%">
+  <div id="topTwoColumn">
+    <div style="width: 45%; height: 100%">
       <h1>How do I <span style="color: #98c89a">Access the IMI?</span></h1>
       <strong>
         The IMI is an open-source software project and freely accessible via the
@@ -178,6 +106,100 @@ author_profile: false
           >.
         </li>
       </ul>
+    </div>
+    <div style="width: 45%; height: 100%">
+      <h2 style="margin-top: 0">
+        What can I <span style="color: #98c89a">expect?</span>
+      </h2>
+      <ul>
+        <li><strong>Total methane emissions</strong> in region of interest</li>
+        <li>Up to 25-km resolution <strong>weekly</strong></li>
+        <li>Sectoral and point source identification</li>
+        <li><strong>Detailed</strong> diagnostics</li>
+        <li>Error characterization in results</li>
+      </ul>
+    </div>
+  </div>
+  <div id="twoColumnContent">
+    <div style="width: 50%">
+      <h1>
+        What is the <br />
+        <span style="color: #98c89a">Integrated Methane Inversion?</span>
+      </h1>
+      <!-- 
+      <p>
+        The Integrated Methane Inversion (IMI) is a community cloud-computing
+        tool for estimating regional methane emissions by analytical inversion
+        of satellite observations from the TROPOspheric Monitoring Instrument
+        (TROPOMI). It enables researchers and stakeholders to infer methane
+        emissions at 0.25° × 0.3125° (≈ 25 × 25 km²) resolution from
+        <a href="https://registry.opendata.aws/sentinel5p/"
+          >TROPOMI satellite data resident on the Amazon Web Services (AWS)
+          cloud</a
+        >, without requiring expert knowledge of inverse methods or cumbersome
+        data download. The IMI uses the
+        <a href="https://geoschem.github.io/"
+          >GEOS-Chem 3-D chemical transport model</a
+        >
+        as forward model for the inversion.
+      </p> -->
+      <p>
+        The
+        <a
+          href="{{ site.baseurl }}/assets/powerpoint/integratedmethaneinversion_imi.pptx"
+          download
+          >Integrated Methane Inversion (IMI)</a
+        >
+        is a user-friendly research-grade cloud-computing tool for
+        <strong
+          >estimating total methane emissions for any domain and period of
+          interest</strong
+        >
+        by analytical inversion of satellite observations from the TROPOspheric
+        Monitoring Instrument (TROPOMI). It enables researchers and stakeholders
+        to
+        <strong
+          >infer methane emissions at up to 0.25° × 0.3125° (≈ 25 × 25 km²)
+          spatial resolution</strong
+        >
+        and up to weekly temporal resolution from
+        <a href="https://registry.opendata.aws/sentinel5p/"
+          >TROPOMI satellite data resident on the Amazon Web Services (AWS)
+          cloud</a
+        >, without requiring expert knowledge of inverse methods or cumbersome
+        data download. The IMI uses the
+        <a href="https://geoschem.github.io/"
+          >GEOS-Chem 3-D chemical transport model</a
+        >
+        driven by NASA Goddard Earth Observing System (GEOS) meteorological data
+        as a forward model for the inversion. It uses
+        <strong
+          >cutting-edge algorithms developed by the Harvard Atmospheric
+          Chemistry Modeling Group (ACMG)</strong
+        >
+        in collaboration with the Netherlands Institute for Space Research
+        (SRON) and documented extensively in the peer-reviewed research
+        literature. <br /><br />An IMI preview feature allows the users to
+        display the satellite observations for their domain and period of
+        interest along with prior emission inventories, point source data, and
+        expected information to be achieved from the inversion.
+      </p>
+    </div>
+    <div id="plot" style="width: 40%; margin-top: 8%">
+      <div>
+        <img
+          src="{{ site.baseurl }}/assets/plots/model.png"
+          alt="IMI model"
+          style="transform: scale(1.4)"
+        />
+      </div>
+      <div id="secondPlot">
+        <img
+          src="{{ site.baseurl }}/assets/plots/PreviewPlot.png"
+          alt="IMI model"
+          style="transform: scale(0.9); margin-top: 15%"
+        />
+      </div>
     </div>
   </div>
 
