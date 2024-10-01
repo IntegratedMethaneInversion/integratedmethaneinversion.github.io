@@ -5,14 +5,14 @@ author_profile: false
 
 <style>
   .pageWrapper {
-    padding: 5% 15%;
+    padding: 3% 15%;
   }
 
   #twoColumnContent {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   #topTwoColumn {
@@ -20,6 +20,27 @@ author_profile: false
     justify-content: space-between;
     box-shadow: 0 0 25px 5px rgba(152, 200, 154, 0.5);
     padding: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #access-btn {
+    background-color: #98c89a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+  }
+
+  #access-btn:hover {
+    background-color: #719873;
   }
 
   @media (max-width: 768px) {
@@ -61,71 +82,17 @@ author_profile: false
 </style>
 
 <div class="pageWrapper">
-  <div id="topTwoColumn">
-    <div style="width: 45%; height: 100%">
-      <h1>How do I <span style="color: #98c89a">Access the IMI?</span></h1>
-      <strong>
-        The IMI is an open-source software project and freely accessible via the
-        <a
-          href="https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba"
-          target="#"
-          >AWS Marketplace</a
-        >.
-      </strong>
-
-      <p>
-        To get started with the IMI, read the documentation on the <a
-          href="https://imi.readthedocs.io/en/latest/"
-          target="#"
-          >IMI readthedocs site</a
-        >. Instructions are provided to configure the IMI, run it on AWS, and
-        visualize output.
-      </p>
-
-      <ul>
-        <li>
-          To view the IMI source code, visit our <a
-            href="https://github.com/ACMG-CH4/CH4_inversion_workflow"
-            target="#"
-            >GitHub repo.</a
-          >
-        </li>
-        <li>
-          For a high-level scientific description, see the IMI development
-          papers by
-          <a
-            href="https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html"
-            target="#"
-            >Varon et al. (2022)</a
-          >
-          and
-          <a
-            href="https://acmg.seas.harvard.edu/sites/projects.iq.harvard.edu/files/acmg/files/estrada2024_imi.pdf"
-            target="#"
-            >Estrada et al. (2024)</a
-          >.
-        </li>
-      </ul>
-    </div>
-    <div style="width: 45%; height: 100%">
-      <h2 style="margin-top: 0">
-        What can I <span style="color: #98c89a">expect?</span>
-      </h2>
-      <ul>
-        <li><strong>Total methane emissions</strong> in region of interest</li>
-        <li>Up to 25-km resolution <strong>weekly</strong></li>
-        <li>Sectoral and point source identification</li>
-        <li><strong>Detailed</strong> diagnostics</li>
-        <li>Error characterization in results</li>
-      </ul>
-    </div>
-  </div>
   <div id="twoColumnContent">
     <div style="width: 50%">
       <h1>
         What is the <br />
         <span style="color: #98c89a">Integrated Methane Inversion?</span>
       </h1>
+      <div style="display: flex; justify-content: center; align-items: center">
+        <a href="#topTwoColumn">
+          <button id="access-btn">Learn How to <strong>Access</strong></button>
+        </a>
+      </div>
       <!-- 
       <p>
         The Integrated Methane Inversion (IMI) is a community cloud-computing
@@ -202,6 +169,65 @@ author_profile: false
       </div>
     </div>
   </div>
+  <div id="topTwoColumn">
+    <div style="width: 45%; height: 100%">
+      <h1>How do I <span style="color: #98c89a">Access the IMI?</span></h1>
+      <strong>
+        The IMI is an open-source software project and freely accessible via the
+        <a
+          href="https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba"
+          target="#"
+          >AWS Marketplace</a
+        >.
+      </strong>
+
+      <p>
+        To get started with the IMI, read the documentation on the <a
+          href="https://imi.readthedocs.io/en/latest/"
+          target="#"
+          >IMI readthedocs site</a
+        >. Instructions are provided to configure the IMI, run it on AWS, and
+        visualize output.
+      </p>
+
+      <ul>
+        <li>
+          To view the IMI source code, visit our <a
+            href="https://github.com/ACMG-CH4/CH4_inversion_workflow"
+            target="#"
+            >GitHub repo.</a
+          >
+        </li>
+        <li>
+          For a high-level scientific description, see the IMI development
+          papers by
+          <a
+            href="https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html"
+            target="#"
+            >Varon et al. (2022)</a
+          >
+          and
+          <a
+            href="https://acmg.seas.harvard.edu/sites/projects.iq.harvard.edu/files/acmg/files/estrada2024_imi.pdf"
+            target="#"
+            >Estrada et al. (2024)</a
+          >.
+        </li>
+      </ul>
+    </div>
+    <div style="width: 45%; height: 100%">
+      <h2 style="margin-top: 0">
+        What can I <span style="color: #98c89a">expect?</span>
+      </h2>
+      <ul>
+        <li><strong>Total methane emissions</strong> in region of interest</li>
+        <li>Up to 25-km resolution <strong>weekly</strong></li>
+        <li>Sectoral and point source identification</li>
+        <li><strong>Detailed</strong> diagnostics</li>
+        <li>Error characterization in results</li>
+      </ul>
+    </div>
+  </div>
 
   <div style="display: flex; justify-content: center">
     <p style="border: solid #3b72b4 4px; padding: 7px; width: 80%">
@@ -236,7 +262,7 @@ author_profile: false
 
   <div style="display: flex; justify-content: center">
     <div style="width: 70%">
-      <h2>Collaboration</h2>
+      <h2 style="text-align: center">Collaboration</h2>
       <p>
         The IMI is a contribution to the NASA Carbon Monitoring System and a
         collaboration between the
@@ -247,7 +273,8 @@ author_profile: false
         >
         (ACMG) and the Netherlands Institute for Space Research (SRON). ACMG
         development of the IMI is supported in part by ExxonMobil Technology and
-        Engineering Company.
+        Engineering Company. Please let us know if you are interested in
+        supporting the IMI.
       </p>
 
       <hr />
