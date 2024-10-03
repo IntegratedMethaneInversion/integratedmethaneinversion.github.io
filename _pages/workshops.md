@@ -33,7 +33,7 @@ The workshop will also introduce the web-based <a href = "http://integralearth.g
 
 November 4th, 2024. 11am EST - 1pm EST.
 
-- 11:00-11:10 Principles behind the IMI (<strong>Daniel Jacob</strong>, IMI Principal Investigator)
+- 11:00-11:10 The science behind the IMI (<strong>Daniel Jacob</strong>, IMI Principal Investigator)
 - 11:10-11:20 IMI description and capabilities (<strong>Daniel Varon</strong>, IMI Co-Principal Investigator)
 - 11:20-11:40 Running the IMI (<strong>Lucas Estrada</strong>, IMI Lead Developer and <strong>Melissa Sulprizio</strong>, IMI Software Engineer)
 - 11:40-12:00 Using Integral Earth for easy access to the IMI (<strong>John Thomas</strong>, IE Lead Developer)

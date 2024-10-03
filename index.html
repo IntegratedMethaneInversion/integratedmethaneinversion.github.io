@@ -5,7 +5,7 @@ author_profile: false
 
 <style>
   .pageWrapper {
-    padding: 3% 15%;
+    padding: 3% 12%;
   }
 
   #twoColumnContent {
@@ -22,6 +22,7 @@ author_profile: false
     padding: 25px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-radius: 10px;
   }
 
   #access-btn {
@@ -150,6 +151,18 @@ author_profile: false
         display the satellite observations for their domain and period of
         interest along with prior emission inventories, point source data, and
         expected information to be achieved from the inversion.
+        <strong
+          >It is strongly documented and fully open-code to ensure transparency,
+          reproducibility, and integrity of the results.</strong
+        >
+      </p>
+      <hr />
+      <p>
+        <a href="https://integralearth.github.io">Integral Earth</a>, a new
+        simple web interface under development, will allow non-experts to access
+        the IMI with no learning curve. Leave it to the experts at Harvard to
+        set up and conduct your inversion, and receive complete results with
+        full transparency of methods used.
       </p>
     </div>
     <div id="plot" style="width: 40%; margin-top: 8%">
@@ -164,7 +177,7 @@ author_profile: false
         <img
           src="{{ site.baseurl }}/assets/plots/PreviewPlot.png"
           alt="IMI model"
-          style="transform: scale(0.9); margin-top: 15%"
+          style="transform: scale(0.9); margin-top: 25%"
         />
       </div>
     </div>
@@ -226,6 +239,27 @@ author_profile: false
         <li><strong>Detailed</strong> diagnostics</li>
         <li>Error characterization in results</li>
       </ul>
+      <div
+        style="
+          border: solid rgb(212, 184, 23) 2px;
+          padding: 10px;
+          border-radius: 5px;
+        "
+      >
+        <p style="margin: 0; text-align: center">
+          <strong
+            >Integral Earth, a new way of accessing the IMI, is currently under
+            development but will be released soon.</strong
+          >
+        </p>
+        <div style="width: 100%; display: flex; justify-content: center">
+          <a href="https://integralearth.github.io" target="#">
+            <button id="access-btn" style="background-color: rgb(212, 184, 23)">
+              Learn More
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 

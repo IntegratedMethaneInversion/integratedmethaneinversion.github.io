@@ -8,6 +8,8 @@ main:
     url: /releases/
   - title: "New Developments"
     url: /new_developments/
+  # - title: "Integral Earth"
+  #   url: /integral_earth/
   - title: "People"
     url: /people/
   - title: "Resources"

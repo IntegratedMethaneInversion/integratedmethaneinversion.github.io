@@ -111,6 +111,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/ilse.jpeg" alt="Ilse Aben" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/ilse-aben-95a099223/">Ilse Aben</a></p>
+        <p id = "title">-Collaborator-</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="E.A.A.Aben@sron.nl">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
@@ -125,6 +126,8 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/bram.jpeg" alt="Bram Maasakkers" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/jdmaasakkers/">Bram Maasakkers</a></p>
+                <p id = "title">-Collaborator-</p>
+
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:j.d.maasakkers@sron.nl">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
