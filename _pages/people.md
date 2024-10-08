@@ -19,7 +19,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://acmg.seas.harvard.edu/">Daniel Jacob</a></p>
-        <p id = "title">-IMI Principal Investigator-</p>
+        <p id = "title">IMI Principal Investigator</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:djacob@fas.harvard.edu">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
@@ -35,7 +35,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/varon.png" alt="Daniel Varon" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.varon.org/">Daniel Varon</a></p>
-        <p id = "title">-IMI Co-Principal Investigator-</p>
+        <p id = "title">IMI Co-Principal Investigator</p>
 
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:danielvaron@g.harvard.edu">
@@ -54,7 +54,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/estrada.jpeg" alt="Lucas Estrada" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://laestrada.github.io/">Lucas Estrada</a></p>
-        <p id = "title">-IMI Lead Developer-</p>
+        <p id = "title">IMI Lead Developer</p>
 
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:lestrada@g.harvard.edu">
@@ -74,7 +74,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/sulprizio.jpeg" alt="Melissa Sulprizio" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://msulprizio.github.io/">Melissa Sulprizio</a></p>
-        <p id = "title">-IMI Software Engineer-</p>
+        <p id = "title">IMI Software Engineer</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:mpayer@seas.harvard.edu">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
@@ -93,7 +93,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/thomas.jpeg" alt="John Thomas" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/john-steed-thomas/">John Thomas</a></p>
-        <p id = "title">-<a href = "https://integralearth.github.io/" target = "#" style = "color: inherit;">Integral Earth</a> Lead Developer-</p>
+        <p id = "title"><a href = "https://integralearth.github.io/" target = "#" style = "color: inherit;">Integral Earth</a> Lead Developer</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:johnthomas@seas.harvard.edu">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
@@ -111,9 +111,9 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/ilse.jpeg" alt="Ilse Aben" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/ilse-aben-95a099223/">Ilse Aben</a></p>
-        <p id = "title">-Collaborator-</p>
+        <p id = "title">Collaborator, <a href = "https://www.sron.nl/" target = "#" style = "color: inherit">SRON</a></p>
         <div style="display: flex; justify-content: center; align-items: center;">
-            <a href="E.A.A.Aben@sron.nl">
+            <a href="mailto:E.A.A.Aben@sron.nl">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
             </a>
             <a href="https://www.linkedin.com/in/ilse-aben-95a099223/">
@@ -126,7 +126,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/bram.jpeg" alt="Bram Maasakkers" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/jdmaasakkers/">Bram Maasakkers</a></p>
-                <p id = "title">-Collaborator-</p>
+                <p id = "title">Collaborator, <a href = "https://www.sron.nl/" target = "#" style = "color: inherit">SRON</a></p>
 
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:j.d.maasakkers@sron.nl">
@@ -137,6 +137,19 @@ permalink: /people/
             </a>
         </div>
         <!-- <p>Bram is a scientist at SRON Netherlands Institute for Space Research focusing on better understanding emissions of methane and carbon monoxide using observations from space.</p> -->
+    </div>
+
+    <div class="team-member">
+        <img src="{{ site.baseurl }}/assets/people/sabour.jpeg" alt="Sabour Baray" class="team-member-img">
+        <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/sabour-baray-92872085/">Sabour Baray</a></p>
+                <p id = "title">Collaborator, <a href = "https://www.canada.ca/en/environment-climate-change.html" target = "#" style = "color: inherit">ENCCC</a></p>
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="https://www.linkedin.com/in/sabour-baray-92872085/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+        </div>
+
     </div>
 
 </div>
