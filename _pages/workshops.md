@@ -23,6 +23,10 @@ The workshop also introduced the web-based <a href = "http://integralearth.githu
     </a>
 </div> -->
 
+### Presentation Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uUcMMb_4X0M?si=Nq7MGhMIZmhSy5KB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Topics Covered
 
 <p style = "color: rgb(155,155,155)">(Click to download presentation slides)</p>
