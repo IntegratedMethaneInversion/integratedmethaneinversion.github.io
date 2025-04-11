@@ -1,14 +1,14 @@
 ---
 layout: single
 title: In Development
-permalink: /new_developments/
+permalink: /developments/
 ---
 
 <h3>IMI 2.1.0 - expected April 2025</h3>
-<table style="font-size:0.9em width:100%">
+<table style="width:100%">
 	<tr>
     	<th style="width=70%">Feature</th>
-    	<th>Developer(s)>/th>
+    	<th>Developer(s)</th>
     </tr>
 	<tr>
     	<td>Automatic ensemble generation for uncertainty calculation</td>
@@ -24,15 +24,15 @@ permalink: /new_developments/
 	</tr>
 	<tr>
     	<td>Minor bug fixes</td>
-    	<td> - </td>
+    	<td> </td>
    	</tr>
 </table>
 
 <h3>IMI 2.2.0 - expected May 2025</h3>
-<table style="font-size:0.9em width=100%">
+<table style="width=100%">
 	<tr>
     	<th style="width=70%">Feature</th>
-    	<th>Developer(s)>/th>
+    	<th>Developer(s)</th>
     </tr>
 	<tr>
 	    <td>Enable inversions at 12-km resolution</td>
@@ -57,7 +57,7 @@ permalink: /new_developments/
 <table style="font-size:0.9em width=100%">
 	<tr>
     	<th style="width=70%">Feature</th>
-    	<th>Developer(s)>/th>
+    	<th>Developer(s)</th>
     </tr>
 	<tr>
 	    <td>Near-real-time / low-latency capability</td>
