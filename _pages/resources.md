@@ -7,9 +7,9 @@ permalink: /resources/
 ## Important Links
 
 - [IMI Documentation](https://imi.readthedocs.io/en/latest/)
-- [IMI GitHub repository](https://github.com/ACMG-CH4/CH4_inversion_workflow)
-- [IMI Amazon Machine Image (free) Listing](https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba)
-- <a href = "{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pptx" download>IMI Introductory Slide Deck</a>
+- [IMI GitHub repository](https://github.com/geoschem/integrated_methane_inversion)
+- [IMI Amazon Machine Image (free) Listing](https://aws.amazon.com/marketplace/seller-profile?id=16893bfa-48fa-425f-b0e3-f49ad9d202a4)
+- <a href = "{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pdf">IMI Introductory Slide Deck</a>
 
 ### [IMI 2.0 Paper: Estrada et al. (2025)](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2700/):
 
