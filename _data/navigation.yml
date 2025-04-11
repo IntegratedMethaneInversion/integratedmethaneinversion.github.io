@@ -2,8 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Workshops"
-    url: /workshops/
+
   - title: "Releases"
     url: /releases/
   - title: "New Developments"
@@ -14,3 +13,5 @@ main:
     url: /people/
   - title: "Resources"
     url: /resources/
+  - title: "Integral Earth"
+    url: /integral_earth/

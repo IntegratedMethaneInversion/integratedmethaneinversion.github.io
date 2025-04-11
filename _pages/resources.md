@@ -11,14 +11,48 @@ permalink: /resources/
 - [IMI Amazon Machine Image (free) Listing](https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba)
 - <a href = "{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pptx" download>IMI Introductory Slide Deck</a>
 
+### [IMI 2.0 Paper: Estrada et al. (2025)](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2700/):
+
+Cite as:
+
+Estrada, L.A., D.J. Varon, M. Sulprizio, H. Nesser, Z. Chen, N. Balasus, S.E. Hancock, M. He, J.D. East, T.A. Mooring, A. Oort Alonso, J.D. Maasakkers, I. Aben, S. Baray, K.W. Bowman, J.R. Worden, F.J. Cardoso-Saldaña, E. Reidy, and D.J. Jacob, Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2700, 2024.
+
 ### [IMI 1.0 Paper: Varon et al. (2022)](https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html):
 
 Cite as:
 
 Varon, D.J., D.J. Jacob, M. Sulprizio, L.A. Estrada, W.B. Downs, L. Shen, S.E. Hancock, H. Nesser, Z. Qu, E. Penn, Z. Chen, X. Lu, A. Lorente, A. Tewari, and C.A. Randles, Integrated Methane Inversion (IMI 1.0): A user-friendly, cloud-based facility for inferring high-resolution methane emissions from TROPOMI satellite observations, Geosci. Model Dev., https://doi.org/10.5194/gmd-15-5787-2022, 2022.
 
-### [IMI 2.0 Paper: Estrada et al. (2024)](https://acmg.seas.harvard.edu/sites/projects.iq.harvard.edu/files/acmg/files/estrada2024_imi.pdf):
+### Workshops
 
-Cite as:
+#### IMI - Integral Earth Workshop
 
-Estrada, L. A., Varon, D. J., Sulprizio, M., Nesser, H., Chen, Z., Balasus, N., Hancock, S. E., He, M., East, J. D., Mooring, T. A., Oort Alonso, A., Maasakkers, J. D., Aben, I., Baray, S., Bowman, K. W., Worden, J. R., Cardoso-Salda˜na, F., Reidy, E., and Jacob, D. J.: Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, submitted to Geosci. Mod. Dev., 2024.
+On November 4, 2024, the Harvard Atmospheric Chemistry Modeling Group and Salata Institute for Climate and Sustainability held a virtual workshop for current and prospective IMI users.
+
+The workshop comprised a series of short presentations by the IMI development team highlighting the tool’s capabilities followed by discussion. Presentations covered the principles for quantifying methane emissions by analytical inversions of satellite observations, the implementation of these principles in the IMI, the range of IMI capabilities, and how to run the IMI.
+
+The workshop also introduced the web-based <a href = "http://integralearth.github.io" target = "#"><strong>Integral Earth</strong></a>, which enables easy access to the IMI by non-expert users.
+
+<!-- <img src = "{{ site.baseurl }}/assets/plots/WorkshopBrochure.png" /> -->
+
+
+<!-- <div style = "width: 100%; display: flex; justify-content: center; margin-bottom: 1.8rem; ">
+<a href = "{{site.baseurl}}/assets/invitation/workshop_invitation_final.pdf" download>
+    <button style = "margin: 10px; background-color: #98c89a; color: white; outline: none; border: solid transparent 1px; border-radius: 5px; padding: 7px">
+        Download PDF Invitation
+    </button>
+    </a>
+</div> -->
+
+#### Presentation Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uUcMMb_4X0M?si=Nq7MGhMIZmhSy5KB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Topics Covered
+
+<p style = "color: rgb(155,155,155)">(Click to download presentation slides)</p>
+
+- <a href = "{{site.baseurl}}/assets/powerpoint/1_Why_the_IMI.pdf" download>The science behind the IMI</a> (<strong>Daniel Jacob</strong>, IMI Principal Investigator)
+- <a href = "{{site.baseurl}}/assets/powerpoint/2_IMI_description_and_capabilities.pdf" download>IMI description and capabilities</a> (<strong>Daniel Varon</strong>, IMI Co-Principal Investigator)
+- <a href = "{{site.baseurl}}/assets/powerpoint/3_Running_the_IMI.pdf" download>Running the IMI</a> (<strong>Lucas Estrada</strong>, IMI Lead Developer and <strong>Melissa Sulprizio</strong>, IMI Software Engineer)
+- <a href = "{{site.baseurl}}/assets/powerpoint/4_Using_IE_for_easy_access_to_the_IMI.pdf" download>Using Integral Earth for easy access to the IMI</a> (<strong>John Thomas</strong>, IE Lead Developer)
