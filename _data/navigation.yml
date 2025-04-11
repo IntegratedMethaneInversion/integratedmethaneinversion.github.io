@@ -6,7 +6,7 @@ main:
     url: /about/
   - title: "Releases"
     url: https://github.com/geoschem/integrated_methane_inversion/releases
-  - title: "New Developments"
+  - title: "In Development"
     url: /new_developments/
   - title: "People"
     url: /people/
