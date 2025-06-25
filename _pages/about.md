@@ -20,7 +20,7 @@ permalink: /about/
         The <a href="{{ site.baseurl }}/assets/powerpoint/integratedmethaneinversion_imi.pptx"  download>Integrated Methane Inversion (IMI)</a>
         is a user-friendly research-grade cloud-computing tool for <strong>estimating total methane emissions for any domain and period of interest</strong>
         by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders
-        to<strong>infer methane emissions at up to 0.25° × 0.3125° (≈ 25 × 25 km²) spatial resolution</strong> and up to weekly temporal resolution from
+        to<strong>infer methane emissions at up to 0.125° × 0.15625° (≈ 12 × 12 km²) spatial resolution</strong> and up to weekly temporal resolution from
         <a href="https://registry.opendata.aws/sentinel5p/">TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud</a>, without requiring
         expert knowledge of inverse methods or cumbersome data download. 
         <br />
@@ -38,7 +38,7 @@ permalink: /about/
       </p>
       <hr />
       <p>
-        <a href="https://integralearth.github.io">Integral Earth</a>, a new simple web interface under development, allows non-experts to access
+        <a href="https://integralearth.github.io">Integral Earth</a>, a simple web interface under development, allows non-experts to access
         the IMI with no learning curve. Leave it to the experts at Harvard to set up and conduct your inversion, and receive complete results with
         full transparency of methods used.
       </p>

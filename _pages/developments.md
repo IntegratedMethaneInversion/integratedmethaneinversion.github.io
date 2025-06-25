@@ -4,69 +4,21 @@ title: In Development
 permalink: /developments/
 ---
 
-<h3>IMI 2.1.0 - expected April 2025</h3>
+<h3>IMI 2.3.0 - expected Fall 2025</h3>
 <table style="width:100%">
 	<tr>
     	<th style="width=70%">Feature</th>
     	<th>Developer(s)</th>
-    </tr>
-	<tr>
-    	<td>Automatic ensemble generation for uncertainty calculation</td>
-    	<td>Lucas Estrada (Harvard)</td>
-    </tr>
-    <tr>
-    	<td>Independent validation of the IMI using NOAA Observation Package (ObsPack) data</td>
-    	<td>Melissa Sulprizio (Harvard)<br>James East (Harvard)</td>
-    </tr>
-    <tr>
-		<td>Breakdown of sectoral emissions in plots</td>
-		<td>John Thomas (Harvard)</td>
-	</tr>
-	<tr>
-    	<td>Minor bug fixes</td>
-    	<td> </td>
-   	</tr>
-</table>
-
-<h3>IMI 2.2.0 - expected May 2025</h3>
-<table style="width=100%">
-	<tr>
-    	<th style="width=70%">Feature</th>
-    	<th>Developer(s)</th>
-    </tr>
-	<tr>
-	    <td>Enable inversions at 12-km resolution</td>
-	    <td>Xiaolin Wang (Harvard)<br>Melissa Sulprizio (Harvard)</td>
-	</tr>
-	<tr>
-	    <td>Update to GEOS-Chem 14.6.0, which includes:
-    	   <ul>
-             <li>Mass conservation fix in mixing scheme</li>
-             <li>Add seasonality for hydropower reservoir emissions</li>
-       	     <li>Fix for double counting of agricultural burning emissions</li>
-             <li>Update rice emissions to GRPI </li>
-             <li>Update to GFEI v3 emissions</li>
-          </ul>
-        </td>
-        <td>Melissa Sulprizio (Harvard)</td>
-	</tr>
-</table>
-
-<h3>Looking Forward<span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-trend-up.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-left: 10px;"></span></h3>
-<table style="font-size:0.9em width=100%">
-	<tr>
-    	<th style="width=70%">Feature</th>
-    	<th>Developer(s)</th>
-    </tr>
+  </tr>
 	<tr>
 	    <td>Near-real-time / low-latency capability</td>
-	    <td>Lucas Estrada (Harvard)</td>
+	    <td>Lucas Estrada (Harvard)<br>Melissa Sulprizio (Harvard)</td>
 	</tr>
-    <tr>
+  <tr>
     	<td>Automated benchmarking of IMI</td>
     	<td>Melissa Sulprizio (Harvard)</td>
 	</tr>
-    <tr>
+  <tr>
     	<td>Use GEOS-Chem carbon simulation instead of the CH4 simulation
     	   <ul>
              <li>Single species or joint carbon (CO2, CO, CH4, OCS) simulations</li>
@@ -74,6 +26,14 @@ permalink: /developments/
            </ul>
     	</td>
     	<td>Melissa Sulprizio (Harvard)</td>
+    </tr>
+</table>
+
+<h3>Looking Forward<span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-trend-up.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-left: 10px;"></span></h3>
+<table style="font-size:0.9em width=100%">
+	  <tr>
+    	<th style="width=70%">Feature</th>
+    	<th>Developer(s)</th>
     </tr>
     <tr>
     	<td>Incorporation of point sources</td>
@@ -84,9 +44,9 @@ permalink: /developments/
     	<td>Hannah Nesser (NASA JPL)</td>
     </tr>
     <tr>
- 	 	<td>ObsPack observation operator</td>
- 	 	<td>TBD</td>
- 	</tr>
+ 	  	<td>ObsPack observation operator</td>
+ 	 	  <td>TBD</td>
+  	</tr>
     <tr>
     	<td>Integration of MethaneSAT data into the IMI</td>
     	<td>Jack Bruno (Harvard)</td>
@@ -103,4 +63,5 @@ permalink: /developments/
     <tr>
     	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI</td>
     	<td>Dandan Zhang (Harvard)</td>
+    </tr>
 </table>

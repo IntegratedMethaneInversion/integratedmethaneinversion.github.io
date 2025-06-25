@@ -11,11 +11,11 @@ permalink: /resources/
 - [IMI Amazon Machine Image (free) Listing](https://aws.amazon.com/marketplace/seller-profile?id=16893bfa-48fa-425f-b0e3-f49ad9d202a4)
 - <a href = "{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pdf">IMI Introductory Slide Deck</a>
 
-### [IMI 2.0 Paper: Estrada et al. (2025)](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2700/):
+### [IMI 2.0 Paper: Estrada et al. (2025)](https://doi.org/10.5194/gmd-18-3311-2025):
 
 Cite as:
 
-Estrada, L.A., D.J. Varon, M. Sulprizio, H. Nesser, Z. Chen, N. Balasus, S.E. Hancock, M. He, J.D. East, T.A. Mooring, A. Oort Alonso, J.D. Maasakkers, I. Aben, S. Baray, K.W. Bowman, J.R. Worden, F.J. Cardoso-Saldaña, E. Reidy, and D.J. Jacob, Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2700, 2024.
+Estrada, L.A., D.J. Varon, M. Sulprizio, H. Nesser, Z. Chen, N. Balasus, S.E. Hancock, M. He, J.D. East, T.A. Mooring, A. Oort Alonso, J.D. Maasakkers, I. Aben, S. Baray, K.W. Bowman, J.R. Worden, F.J. Cardoso-Saldaña, E. Reidy, and D.J. Jacob, Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, Geoscientific Model Development, 18, 3311–3330, https://doi.org/10.5194/gmd-18-3311-2025, 2025.
 
 ### [IMI 1.0 Paper: Varon et al. (2022)](https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html):
 
