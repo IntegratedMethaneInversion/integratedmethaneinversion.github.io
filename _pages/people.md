@@ -153,17 +153,36 @@ permalink: /people/
 
     </div>
          <div class="team-member">
-        <img src="{{ site.baseurl }}/assets/people/hannah.jpeg" alt="Hannah Nesser" class="team-member-img">
-        <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/hannah-nesser-0a06a583/">Hannah Nesser</a></p>
-                <p id = "title">Collaborator, <a href = "https://www.jpl.nasa.gov/" target = "#" style = "color: inherit">NASA JPL</a></p>
+            <img src="{{ site.baseurl }}/assets/people/hannah.jpeg" alt="Hannah Nesser" class="team-member-img">
+            <p style="margin-bottom: 0.2rem"><a href="https://www.linkedin.com/in/hannah-nesser-0a06a583/">Hannah Nesser</a></p>
+                    <p id = "title">Collaborator, <a href = "https://www.jpl.nasa.gov/" target = "#" style = "color: inherit">NASA JPL</a></p>
 
         <div style="display: flex; justify-content: center; align-items: center;">
-        <a href="mailto:hannah.o.nesser@jpl.nasa.gov">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
-            </a>
-            <a href="https://www.linkedin.com/in/hannah-nesser-0a06a583/">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
+            <a href="mailto:hannah.o.nesser@jpl.nasa.gov">
+                    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
+                </a>
+                <a href="https://www.linkedin.com/in/hannah-nesser-0a06a583/">
+                    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+                </a>
         </div>
 
-</div>
+
+    </div>
+        <div class="team-member">
+        <img src="{{ site.baseurl }}/assets/people/zichong.jpg" alt="Zichong Cheng" class="team-member-img">
+        <p style="margin-bottom: 0.2rem">Zichong Cheng, <a href="https://www.hkust.edu.hk/">HKUST</a></p>
+        <p id = "title">Collaborator</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="mailto:zichongchen@hkust-gz.edu.cn">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
+            </a>
+            <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=516">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" style="height: 25px; width: 25px; margin-right: 10px;">
+            </a>
+            <a href="https://www.linkedin.com/in/zichong-chen-182217b5">
+                    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+                </a>
+        </div>
+        <!-- <p>Daniel is the Vasco McCoy Family Professor of Atmospheric Chemistry and Environmental Engineering at Harvard University.</p> -->
+
+    </div>
