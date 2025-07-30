@@ -15,16 +15,16 @@ permalink: /resources/
 <h1>Important Links</h1>
 
 <ul>
-	<li><a href="https://imi.readthedocs.io/en/latest/">IMI Documentation]</li>
-	<li><a href="https://github.com/geoschem/integrated_methane_inversion">IMI GitHub repository]</li>
-	<li><a href="https://aws.amazon.com/marketplace/seller-profile?id=16893bfa-48fa-425f-b0e3-f49ad9d202a4">IMI Amazon Machine Image (free) Listing]</li>
+	<li><a href="https://imi.readthedocs.io/en/latest/">IMI Documentation</a></li>
+	<li><a href="https://github.com/geoschem/integrated_methane_inversion">IMI GitHub repository]</a></li>
+	<li><a href="https://aws.amazon.com/marketplace/seller-profile?id=16893bfa-48fa-425f-b0e3-f49ad9d202a4">IMI Amazon Machine Image (free) Listing]</a></li>
 	<li><a href="{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pdf">IMI Introductory Slide Deck</a></li>
 </ul>
 
 
 <h1>References</h1>
 
-<h2><a href="https://doi.org/10.5194/gmd-18-3311-2025">IMI 2.0 Paper: Estrada et al. (2025)]</h2>
+<h2><a href="https://doi.org/10.5194/gmd-18-3311-2025">IMI 2.0 Paper: Estrada et al. (2025)</a></h2>
 
 <p>
 Cite as:
@@ -32,7 +32,7 @@ Cite as:
 Estrada, L.A., D.J. Varon, M. Sulprizio, H. Nesser, Z. Chen, N. Balasus, S.E. Hancock, M. He, J.D. East, T.A. Mooring, A. Oort Alonso, J.D. Maasakkers, I. Aben, S. Baray, K.W. Bowman, J.R. Worden, F.J. Cardoso-Saldaña, E. Reidy, and D.J. Jacob, Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, Geoscientific Model Development, 18, 3311–3330, https://doi.org/10.5194/gmd-18-3311-2025, 2025.
 </p>
 
-<h2><a href="https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html">IMI 1.0 Paper: Varon et al. (2022)]</h2>
+<h2><a href="https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022.html">IMI 1.0 Paper: Varon et al. (2022)</a></h2>
 
 <p>
 Cite as:
@@ -48,7 +48,7 @@ Varon, D.J., D.J. Jacob, M. Sulprizio, L.A. Estrada, W.B. Downs, L. Shen, S.E. H
 
 <p>The workshop comprised a series of short presentations by the IMI development team highlighting the tool’s capabilities followed by discussion. Presentations covered the principles for quantifying methane emissions by analytical inversions of satellite observations, the implementation of these principles in the IMI, the range of IMI capabilities, and how to run the IMI.</p>
 
-<p>The workshop also introduced the web-based <a href = "http://integralearth.github.io" target = "#"><strong>Integral Earth</strong></a>, which enables easy access to the IMI by non-expert users.</p>
+<p>The workshop also introduced the web-based <a href="http://integralearth.github.io" target="#"><strong>Integral Earth</strong></a>, which enables easy access to the IMI by non-expert users.</p>
 
 <h3>Presentation Recording</h3>
 
