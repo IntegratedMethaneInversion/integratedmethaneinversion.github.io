@@ -1,18 +1,32 @@
 ---
-layout: single
+layout: default
 title: About
 permalink: /about/
 ---
 
-<h1>
-	What is the <br /><span style="color: #98c89a">Integrated Methane Inversion?</span>
-</h1>
+<style>
+  #access-btn {
+    background-color: #98c89a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+  }
+</style>
+
 <div style="display: flex; justify-content: center; align-items: center">
-	<a href="#topTwoColumn">
-		<button id="access-btn">Learn How to <strong>Access</strong></button>
+	<a href="{{ site.baseurl }}#topTwoColumn">
+		<button id="access-btn">Learn How to Access</button>
     </a>
 </div>
-
+<br>
 <p>
 The Integrated Methane Inversion (IMI) is a user-friendly research-grade cloud-computing tool for <strong>estimating total methane emissions for any domain and period of interest</strong> by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders
 to <strong>infer methane emissions at up to 0.125° × 0.15625° (≈ 12 × 12 km²) spatial resolution</strong> and up to weekly temporal resolution from <a href="https://registry.opendata.aws/sentinel5p/">TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud</a>, without requiring
