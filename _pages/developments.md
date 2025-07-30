@@ -64,4 +64,12 @@ permalink: /developments/
     	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI</td>
     	<td>Dandan Zhang (Harvard)</td>
     </tr>
+    <tr>
+    	<td>Prior error correlations</td>
+    	<td>Nick Balasus (Harvard)</td>
+    </tr>
+    <tr>
+    	<td>Kalman smoother</td>
+    	<td>Nick Balasus (Harvard)</td>
+    </tr>
 </table>
