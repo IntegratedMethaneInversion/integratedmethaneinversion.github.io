@@ -71,7 +71,7 @@ full transparency of methods used.
 </p>
 
 <p>
-	<img src="{{ site.baseurl }}/assets/plots/model.png" alt="Image depicting inversion workflow" style="transform: scale(1.4)"/>&nbsp;&nbsp;
+	<img src="{{ site.baseurl }}/assets/plots/model.png" alt="Image depicting inversion workflow" style="transform: scale(0.99)"/>&nbsp;&nbsp;
 	<img src="{{ site.baseurl }}/assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions" style="transform: scale(0.99);"/>&nbsp;
 	<img src="{{ site.baseurl }}/assets/plots/emissions_timeline.png" alt="Methane emission timeseries" style="transform: scale(0.99);"/>
 </p>
