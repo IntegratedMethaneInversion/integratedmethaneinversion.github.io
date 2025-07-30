@@ -1,8 +1,16 @@
 ---
-layout: single
+layout: default
 title: In Development
 permalink: /developments/
 ---
+
+<style>
+  .pageWrapper {
+    padding: 3% 12%;
+  }
+</style>
+
+<div class="pageWrapper">
 
 <h3>IMI 2.3.0 - expected Fall 2025</h3>
 <table style="width:100%">
@@ -73,3 +81,5 @@ permalink: /developments/
     	<td>Nick Balasus (Harvard)</td>
     </tr>
 </table>
+
+</div>

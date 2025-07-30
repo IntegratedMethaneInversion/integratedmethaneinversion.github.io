@@ -9,8 +9,6 @@ permalink: /people/
         margin: 0;
         color: #98c89a;
     }
-
-
 </style>
 
 <hr>

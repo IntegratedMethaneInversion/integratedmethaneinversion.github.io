@@ -9,27 +9,6 @@ permalink: /about/
     padding: 3% 12%;
   }
 
-  .collab_icon {
-    transform: scale(1.8);
-  }
-
-  #twoColumnContent {
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    margin-top: 10px;
-  }
-
-  #topTwoColumn {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 25px 5px rgba(152, 200, 154, 0.5);
-    padding: 25px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-  }
-
   #access-btn {
     background-color: #98c89a;
     color: white;
@@ -55,38 +34,10 @@ permalink: /about/
       width: 100% !important;
     }
 
-    #topTwoColumn {
-      flex-direction: column;
-      width: 100% !important;
-    }
-
-    #topTwoColumn > div {
-      width: 100% !important;
-    }
-
-    #twoColumnContent {
-      flex-direction: column;
-      width: 100% !important;
-    }
-
-    #twoColumnContent > div {
-      width: 100% !important;
-    }
-
-    #expectations {
-      width: 100% !important;
-    }
-
     #plot {
       scale: 0.7 !important;
     }
 
-    #secondPlot {
-      display: none;
-    }
-    .collab_icon {
-      transform: scale(1.2);
-    }
   }
 </style>
 
@@ -120,14 +71,9 @@ full transparency of methods used.
 </p>
 
 <div id="plot" style="width: 40%; margin-top: 8%">
-	<div>
-		<img src="{{ site.baseurl }}/assets/plots/model.png" alt="Image depicting inversion workflow" style="transform: scale(1.4)"/>
-	</div>
-	<div id="secondPlot">
-		<img src="{{ site.baseurl }}/assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions" style="transform: scale(0.99); margin-top: 25%; margin-left: 20%"/>
-	</div>
-	<div id="secondPlot">
-		<img src="{{ site.baseurl }}/assets/plots/emissions_timeline.png" alt="Methane emission timeseries" style="transform: scale(0.99); margin-top: 20%"/>
-    </div>
+	<img src="{{ site.baseurl }}/assets/plots/model.png" alt="Image depicting inversion workflow" style="transform: scale(1.4)"/>
+	<img src="{{ site.baseurl }}/assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions" style="transform: scale(0.99);"/>
+	<img src="{{ site.baseurl }}/assets/plots/emissions_timeline.png" alt="Methane emission timeseries" style="transform: scale(0.99);"/>
 </div>
+
 </div>

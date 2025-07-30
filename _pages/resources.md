@@ -1,8 +1,16 @@
 ---
-layout: single
+layout: default
 title: Resources
 permalink: /resources/
 ---
+
+<style>
+  .pageWrapper {
+    padding: 3% 12%;
+  }
+</style>
+
+<div class="pageWrapper">
 
 ## Important Links
 
@@ -45,3 +53,5 @@ The workshop also introduced the web-based <a href = "http://integralearth.githu
 - <a href = "{{site.baseurl}}/assets/powerpoint/2_IMI_description_and_capabilities.pdf" download>IMI description and capabilities</a> (<strong>Daniel Varon</strong>, IMI Co-Principal Investigator)
 - <a href = "{{site.baseurl}}/assets/powerpoint/3_Running_the_IMI.pdf" download>Running the IMI</a> (<strong>Lucas Estrada</strong>, IMI Lead Developer and <strong>Melissa Sulprizio</strong>, IMI Software Engineer)
 - <a href = "{{site.baseurl}}/assets/powerpoint/4_Using_IE_for_easy_access_to_the_IMI.pdf" download>Using Integral Earth for easy access to the IMI</a> (<strong>John Thomas</strong>, IE Lead Developer)
+
+</div>
