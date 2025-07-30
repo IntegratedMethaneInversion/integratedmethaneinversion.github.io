@@ -33,17 +33,6 @@ The workshop comprised a series of short presentations by the IMI development te
 
 The workshop also introduced the web-based <a href = "http://integralearth.github.io" target = "#"><strong>Integral Earth</strong></a>, which enables easy access to the IMI by non-expert users.
 
-<!-- <img src = "{{ site.baseurl }}/assets/plots/WorkshopBrochure.png" /> -->
-
-
-<!-- <div style = "width: 100%; display: flex; justify-content: center; margin-bottom: 1.8rem; ">
-<a href = "{{site.baseurl}}/assets/invitation/workshop_invitation_final.pdf" download>
-    <button style = "margin: 10px; background-color: #98c89a; color: white; outline: none; border: solid transparent 1px; border-radius: 5px; padding: 7px">
-        Download PDF Invitation
-    </button>
-    </a>
-</div> -->
-
 #### Presentation Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uUcMMb_4X0M?si=Nq7MGhMIZmhSy5KB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
