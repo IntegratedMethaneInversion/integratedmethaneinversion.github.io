@@ -105,14 +105,13 @@ The IMI uses the <a href="https://geos-chem.org">GEOS-Chem 3-D chemical transpor
 <br>
 An IMI preview feature allows the users to display the satellite observations for their domain and period of interest along with prior emission inventories, point source data, and expected information to be achieved from the inversion.
 </p>
-<br>
-<br>
+
 <div style="display: flex; justify-content: center; align-items: center">
 	<a href="{{ site.baseurl }}#topTwoColumn">
 		<button id="access-btn">Learn How to Access</button>
     </a>
 </div>
-<br>
+
 <hr />
 <p>
 <a href="https://integralearth.github.io">Integral Earth</a>, a simple web interface, allows non-experts to access
@@ -122,9 +121,13 @@ full transparency of methods used.
 
 <div id="plot" style="width: 40%; margin-top: 8%">
 	<div>
-		<img src="{{ site.baseurl }}/assets/plots/model.png" alt="IMI model" style="transform: scale(1.4)"/>
-		<img src="{{ site.baseurl }}/assets/plots/optimized_emissions.png" alt="IMI model" style="transform: scale(0.99); margin-top: 25%; margin-left: 20%"/>
-		<img src="{{ site.baseurl }}/assets/plots/emissions_timeline.png" alt="IMI model" style="transform: scale(0.99); margin-top: 20%"/>
+		<img src="{{ site.baseurl }}/assets/plots/model.png" alt="Image depicting inversion workflow" style="transform: scale(1.4)"/>
+	</div>
+	<div id="secondPlot">
+		<img src="{{ site.baseurl }}/assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions" style="transform: scale(0.99); margin-top: 25%; margin-left: 20%"/>
+	</div>
+	<div id="secondPlot">
+		<img src="{{ site.baseurl }}/assets/plots/emissions_timeline.png" alt="Methane emission timeseries" style="transform: scale(0.99); margin-top: 20%"/>
     </div>
 </div>
 </div>
