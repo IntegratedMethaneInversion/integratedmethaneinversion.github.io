@@ -1,8 +1,16 @@
 ---
-layout: single
+layout: default
 title: In Development
 permalink: /developments/
 ---
+
+<style>
+  .pageWrapper {
+    padding: 3% 12%;
+  }
+</style>
+
+<div class="pageWrapper">
 
 <h3>IMI 2.3.0 - expected Fall 2025</h3>
 <table style="width:100%">
@@ -64,4 +72,14 @@ permalink: /developments/
     	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI</td>
     	<td>Dandan Zhang (Harvard)</td>
     </tr>
+    <tr>
+    	<td>Prior error correlations</td>
+    	<td>Nick Balasus (Harvard)</td>
+    </tr>
+    <tr>
+    	<td>Kalman smoother</td>
+    	<td>Nick Balasus (Harvard)</td>
+    </tr>
 </table>
+
+</div>
