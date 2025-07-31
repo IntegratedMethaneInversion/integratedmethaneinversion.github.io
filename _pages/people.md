@@ -19,7 +19,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://acmg.seas.harvard.edu/">Daniel Jacob</a></p>
-        <p id = "title">IMI Principal Investigator</p>
+        <p id = "title">IMI Co-Scientist</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:djacob@fas.harvard.edu">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px;">
@@ -35,7 +35,7 @@ permalink: /people/
     <div class="team-member">
         <img src="{{ site.baseurl }}/assets/people/varon.png" alt="Daniel Varon" class="team-member-img">
         <p style="margin-bottom: 0.2rem"><a href="https://www.varon.org/">Daniel Varon</a></p>
-        <p id = "title">IMI Co-Principal Investigator</p>
+        <p id = "title">IMI Scientist</p>
 
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:danielvaron@g.harvard.edu">
