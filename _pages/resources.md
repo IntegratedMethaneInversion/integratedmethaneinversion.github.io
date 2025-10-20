@@ -18,7 +18,7 @@ permalink: /resources/
 	<li><a href="https://imi.readthedocs.io/en/latest/">IMI Documentation</a></li>
 	<li><a href="https://github.com/geoschem/integrated_methane_inversion">IMI GitHub repository</a></li>
 	<li><a href="https://aws.amazon.com/marketplace/seller-profile?id=16893bfa-48fa-425f-b0e3-f49ad9d202a4">IMI Amazon Machine Image (free) Listing</a></li>
-	<li><a href="{{site.baseurl}}/assets/powerpoint/integratedmethaneinversion_imi.pdf">IMI Introductory Slide Deck</a></li>
+	<li><a href="../assets/powerpoint/integratedmethaneinversion_imi.pdf">IMI Introductory Slide Deck</a></li>
 </ul>
 
 
@@ -59,9 +59,9 @@ Varon, D.J., D.J. Jacob, M. Sulprizio, L.A. Estrada, W.B. Downs, L. Shen, S.E. H
 <p style = "color: rgb(155,155,155)">(Click to download presentation slides)</p>
 
 <ul>
-	<li><a href = "{{site.baseurl}}/assets/powerpoint/1_Why_the_IMI.pdf" download>The science behind the IMI</a> (<strong>Daniel Jacob</strong>, IMI Principal Investigator)</li>
-	<li><a href = "{{site.baseurl}}/assets/powerpoint/2_IMI_description_and_capabilities.pdf" download>IMI description and capabilities</a> (<strong>Daniel Varon</strong>, IMI Co-Principal Investigator)</li>
-	<li><a href = "{{site.baseurl}}/assets/powerpoint/3_Running_the_IMI.pdf" download>Running the IMI</a> (<strong>Lucas Estrada</strong>, IMI Lead Developer; <strong>Melissa Sulprizio</strong>, IMI Software Engineer)</li>
-	<li><a href = "{{site.baseurl}}/assets/powerpoint/4_Using_IE_for_easy_access_to_the_IMI.pdf" download>Using Integral Earth for easy access to the IMI</a> (<strong>John Thomas</strong>, IE Lead Developer)</li>
+	<li><a href = "../assets/powerpoint/1_Why_the_IMI.pdf" download>The science behind the IMI</a> (<strong>Daniel Jacob</strong>, IMI Co-Scientist)</li>
+	<li><a href = "../assets/powerpoint/2_IMI_description_and_capabilities.pdf" download>IMI description and capabilities</a> (<strong>Daniel Varon</strong>, IMI Scientist)</li>
+	<li><a href = "../assets/powerpoint/3_Running_the_IMI.pdf" download>Running the IMI</a> (<strong>Lucas Estrada</strong>, IMI Lead Developer; <strong>Melissa Sulprizio</strong>, IMI Software Engineer)</li>
+	<li><a href = "../assets/powerpoint/4_Using_IE_for_easy_access_to_the_IMI.pdf" download>Using Integral Earth for easy access to the IMI</a> (<strong>John Thomas</strong>, IE Lead Developer)</li>
 </ul>
 
