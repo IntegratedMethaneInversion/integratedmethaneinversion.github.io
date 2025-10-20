@@ -87,6 +87,8 @@ author_profile: false
       transform: scale(1.2);
     }
   }
+
+  a {text-decoration: none;}
 </style>
 
 
@@ -96,11 +98,11 @@ author_profile: false
    <span style="color: #98c89a">Integrated Methane Inversion</span>
   </h1>
 
-      <p>The Integrated Methane Inversion (IMI) is an open-access cloud computing tool designed for non-expert users to infer
-      methane emissions worldwide at up to 12 km resolution through analytical inversion of TROPOspheric Monitoring Instrument
-      (TROPOMI) satellite observations with NASA GEOS meteorological data. </p>
+  <p>The Integrated Methane Inversion (IMI) is an open-access cloud-computing tool designed for non-expert users to infer
+     methane emissions worldwide at up to 12-km resolution through analytical inversion of TROPOspheric Monitoring Instrument
+     (TROPOMI) satellite observations with NASA GEOS meteorological data. </p>
 
-<!---
+  <!---
       <div style="display: flex; justify-content: center; align-items: center">
         <a href="#topTwoColumn">
           <button id="access-btn">Learn How to <strong>Access</strong></button>
@@ -108,14 +110,12 @@ author_profile: false
       </div>
       <p>
 
-<div style = "display: flex; justify-content: left; gap: 1.5rem; align-items: center; margin-bottom: 1.5rem">
---->
+  <div style = "display: flex; justify-content: left; gap: 1.5rem; align-items: center; margin-bottom: 1.5rem">--->
 
-<a href="https://github.com/geoschem/integrated_methane_inversion/releases/tag/imi-2.2.0"><button style = "background-color: #98C89A; outline: none; border: none; color: white; transform: scale(1.2); margin-left: 1.1rem">
-Current Release: IMI 2.2.0</button></a>
-
-
-
+  <p align="center">
+    <a href="https://github.com/geoschem/integrated_methane_inversion/releases/tag/imi-2.2.1"><button style = "background-color: #98C89A; outline: none; border: none; color: white; transform: scale(1.2); margin-left: 1.1rem">Current Release: IMI 2.2.1</button></a>
+  </p>
+  
  <div id="topTwoColumn">
     <div style="width: 45%; height: 100%">
       <h1>How do I <span style="color: #98c89a">Access the IMI?</span></h1>
@@ -131,7 +131,7 @@ Current Release: IMI 2.2.0</button></a>
 
       <ul>
         <li>
-          To view the IMI source code, visit the <a href="https://github.com/geoschem/integrated_methane_inversion" target="#">GitHub repository</a>.
+          To access the IMI source code, visit the <a href="https://github.com/geoschem/integrated_methane_inversion" target="#">GitHub repository</a>.
         </li>
         <li>
           For a high-level scientific description, see the IMI development papers by
@@ -143,7 +143,7 @@ Current Release: IMI 2.2.0</button></a>
     </div>
     <div style="width: 45%; height: 100%">
       <h2 style="margin-top: 0">
-        What can I <span style="color: #98c89a">expect?</span>
+        <span style="color: #98c89a">Outputs and capabilities</span>
       </h2>
       <ul>
         <li><strong>Total methane emissions</strong> in region of interest</li>
@@ -186,44 +186,60 @@ Current Release: IMI 2.2.0</button></a>
   </div>
 
   <div style="display: flex; justify-content: center">
-    <div style="width: 70%">
-      <h2 style="text-align: center">Collaboration</h2>
+    <div style="width: 80%">
+      <h2 style="text-align: center"><span style="color: #98c89a">Collaboration</span></h2>
       <p>
-        The IMI is a contribution to the NASA Carbon Monitoring System and a collaboration between the <strong>Harvard Atmospheric Chemistry Modeling Group</strong> (ACMG) and the Netherlands Institute for Space Research (SRON). ACMG development of the IMI is supported in part by ExxonMobil.
+        The IMI is developed and maintained by an international team of researchers at MIT, Harvard University, Space Research Organisation Netherlands (SRON), NASA Jet Propulsion Laboratory (JPL), Environment and Climate Change Canada (ECCC), and the Hong Kong University of Science and Technology.
       </p>
-
-      <hr />
-      <div
-        style="
-          height: 100px;
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-        "
-      >
-        <a href="https://acmg.seas.harvard.edu/" target="#">
-          <img
-            src="{{ site.baseurl }}/assets/logos/ACMG_logo_transparent.png"
-            alt=""
-            class="collab_icon"
-            style="height: 90px !important"
-          />
-        </a>
-        <a href="https://carbon.nasa.gov/cms/" target="#">
-          <img
-            src="{{ site.baseurl }}/assets/logos/cmslogotransparent_dark.png"
-            alt=""
-            class="collab_icon"
-          />
-        </a>
-        <a href="https://www.sron.nl/" target="#">
-          <img
-            src="{{ site.baseurl }}/assets/logos/sron.png"
-            alt=""
-            class="collab_icon"
-          />
-        </a>
-      </div>
     </div>
+  </div>
+     
+  <div>
+    <p align="center">
+    <a href="https://varon.mit.edu/" target="#">
+      <img src="assets/logos/VL_MIT.png" alt="MIT Varon Lab logo" style="height: 90px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://acmg.seas.harvard.edu/" target="#">
+      <img src="assets/logos/ACMG_logo_transparent.png" alt="Harvard ACMG logo" style="height: 110px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.sron.nl/" target="#">
+      <img src="assets/logos/sron.png" alt="SRON logo" style="height: 90px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.jpl.nasa.gov/" target="#">
+      <img src="assets/logos/NASA_JPL.png" alt="NASA JPL logo" style="height: 90px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.canada.ca/en/environment-climate-change.html" target="#">
+      <img src="assets/logos/ECCC.png" alt="ECCC logo" style="height: 70px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.jpl.nasa.gov/" target="#">
+      <img src="assets/logos/HKUST.png" alt="HKUST logo" style="height: 90px"/>
+    </a>
+    </p>
+  </div>
+
+    <div style="display: flex; justify-content: center">
+    <div style="width: 80%">
+      <h2 style="text-align: center"><span style="color: #98c89a">Funding</span></h2>
+      <p>
+        Harvard development of the IMI is supported by NASA Carbon Monitoring System, Salata Institute for Climate and Sustainability, ExxonMobil, and UNEP's International Methane Emissions Observatory.
+      </p>
+    </div>
+  </div>
+     
+  <div>
+    <p align="center">
+    <a href="https://carbon.nasa.gov/cms/" target="#">
+      <img src="assets/logos/NASA_CMS.png" alt="NASA CMS logo" style="height: 90px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.unep.org/topics/energy/methane/international-methane-emissions-observatory" target="#">
+      <img src="assets/logos/imeo.jpg" alt="ExxonMobile logo" style="height: 90px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://salatainstitute.harvard.edu/" target="#">
+      <img src="assets/logos/Salata_Institute.png" alt="Harvard Salata Institute logo" style="height: 90px"/>
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://corporate.exxonmobil.com/" target="#">
+      <img src="assets/logos/exxon.png" alt="ExxonMobile logo" style="height: 90px"/>
+    </a>
+  </p>
   </div>
 </div>
