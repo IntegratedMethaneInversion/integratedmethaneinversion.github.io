@@ -69,7 +69,11 @@ permalink: /developments/
     	<td>Hannah Nesser (NASA JPL)</td>
     </tr>
     <tr>
-    	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI</td>
+    	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI
+		  <ul>
+		    <li>Includes stretched-grid capability</li>
+		  </ul>
+		</td>
     	<td>Dandan Zhang (Harvard)</td>
     </tr>
     <tr>

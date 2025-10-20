@@ -70,18 +70,13 @@ the IMI with no learning curve. Leave it to the experts at Harvard to set up and
 full transparency of methods used.
 </p>
 
- <div id="plot" style="width: 40%; margin-top: 8%">
- 	<div>
-		<img src="{{ site.baseurl }}/assets/plots/model.png" alt="Image depicting inversion workflow" style="transform: scale(1.4)"/>
-	</div>
-	<!--
-	<div id="secondPlot">
-		<img src="{{ site.baseurl }}/assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions" style="transform: scale(0.99); margin-top: 25%; margin-left: 20%"/>
-	</div>
-	<div id="secondPlot">
-		<img src="{{ site.baseurl }}/assets/plots/emissions_timeline.png" alt="Methane emission timeseries" style="transform: scale(0.99); margin-top: 20%"/>
-	</div>
-	-->
-</div>
+<p align="center">
+		<img src="../assets/plots/model.png" alt="Image depicting inversion workflow">
+</p>
+
+<p align="center">
+		<img src="../assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions"/> &nbsp;&nbsp;&nbsp;
+		<img src="../assets/plots/emissions_timeline.png" alt="Methane emission timeseries"/>
+</p>
 
 </div>
