@@ -51,7 +51,7 @@ expert knowledge of inverse methods or cumbersome data download.
 <br>
 <br>
 The IMI uses the <a href="https://geos-chem.org">GEOS-Chem 3-D chemical transport model</a> driven by NASA Goddard Earth Observing System (GEOS) meteorological data as a forward model for the inversion. It uses
-<strong>cutting-edge algorithms developed by the <a href="https://acmg.seas.harvard.edu/">Harvard Atmospheric Chemistry Modeling Group (ACMG)</a></strong> in collaboration with the Netherlands Institute for Space Research (SRON) and documented extensively in the peer-reviewed research literature. <strong>It is strongly documented and fully open-code to ensure transparency, reproducibility, and integrity of the results.</strong>
+<strong>cutting-edge algorithms developed by the <a href="https://varon.mit.edu/">MIT Varon Lab</a> and <a href="https://acmg.seas.harvard.edu/">Harvard Atmospheric Chemistry Modeling Group (ACMG)</a></strong> and is documented extensively in peer-reviewed research literature. The IMI is <strong>strongly documented and fully open-source code to ensure transparency, reproducibility, and integrity of the results.</strong>
 <br>
 <br>
 An IMI preview feature allows the users to display the satellite observations for their domain and period of interest along with prior emission inventories, point source data, and expected information to be achieved from the inversion.
