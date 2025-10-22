@@ -25,7 +25,7 @@ permalink: /people/
             <a href="mailto:dvaron@mit.edu">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
             </a>
-            <a href="https://www.varon.org">
+            <a href="https://varon.mit.edu">
                 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
             </a>
             <a href="https://www.linkedin.com/in/daniel-varon-051b9914b/">
