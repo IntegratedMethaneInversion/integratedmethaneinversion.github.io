@@ -80,10 +80,6 @@ permalink: /developments/
     	<td>Prior error correlations</td>
     	<td>Nick Balasus (Harvard)</td>
     </tr>
-    <tr>
-    	<td>Kalman smoother</td>
-    	<td>Nick Balasus (Harvard)</td>
-    </tr>
 </table>
 
 </div>
