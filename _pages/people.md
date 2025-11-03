@@ -212,3 +212,26 @@ permalink: /people/
         </div>
 
     </div>
+
+    <div class="team-member">
+        <a href="http://atmos.earth.rochester.edu/">
+            <img src="../assets/people/murray.jpeg" alt="Lee Murray" class="team-member-img">
+        </a>
+        <p style="margin-bottom: 0.2rem">Lee Murray</p>
+        <p id = "title">Collaborator, U. Rochester</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="mailto:lee.murray@rochester.edu">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="http://atmos.earth.rochester.edu/people/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://www.linkedin.com/in/lee-murray-15212423/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://github.com/ltmurray">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+        </div>
+
+    </div>
