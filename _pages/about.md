@@ -49,7 +49,7 @@ The Integrated Methane Inversion (IMI) is a user-friendly research-grade cloud-c
 expert knowledge of inverse methods or cumbersome data download. 
 <br>
 <br>
-The IMI uses the <a href="geos-chem.org">GEOS-Chem 3-D chemical transport model</a> driven by NASA Goddard Earth Observing System (GEOS) meteorological data as a forward model for the inversion. It uses <strong>cutting-edge algorithms developed by the <a href="https://carboninversion.com/people/">IMI team</a></strong> and is documented extensively in peer-reviewed research literature. The IMI is <strong>strongly documented and fully open-source to ensure transparency, reproducibility, and integrity of the results.</strong>
+The IMI uses the <a href="https://geoschem.github.io/">GEOS-Chem 3-D chemical transport model</a> driven by NASA Goddard Earth Observing System (GEOS) meteorological data as a forward model for the inversion. It uses <strong>cutting-edge algorithms developed by the <a href="https://carboninversion.com/people/">IMI team</a></strong> and is documented extensively in peer-reviewed research literature. The IMI is <strong>strongly documented and fully open-source to ensure transparency, reproducibility, and integrity of the results.</strong>
 <br>
 <br>
 An IMI preview feature allows the users to display the satellite observations for their domain and period of interest along with prior emission inventories, point source data, and expected information to be achieved from the inversion.
