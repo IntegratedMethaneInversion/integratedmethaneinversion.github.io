@@ -12,20 +12,16 @@ permalink: /developments/
 
 <div class="pageWrapper">
 
-<h3>IMI 2.3.0 - expected Fall 2025</h3>
+<h3>IMI 2.3.0 - expected early 2026</h3>
 <table style="width:100%">
-	<tr>
+  <tr>
     	<th style="width=70%">Feature</th>
     	<th>Developer(s)</th>
   </tr>
-	<tr>
-	    <td>Near-real-time / low-latency capability</td>
-	    <td>Lucas Estrada (Harvard)<br>Melissa Sulprizio (Harvard)</td>
-	</tr>
   <tr>
-    	<td>Automated benchmarking of IMI</td>
-    	<td>Melissa Sulprizio (Harvard)</td>
-	</tr>
+    	<td>Add optimization of soil absorption</td>
+    	<td>Dandan Zhang (Harvard)</td>
+  </tr>
   <tr>
     	<td>Use GEOS-Chem carbon simulation instead of the CH4 simulation
     	   <ul>
@@ -34,14 +30,30 @@ permalink: /developments/
            </ul>
     	</td>
     	<td>Melissa Sulprizio (Harvard)</td>
-    </tr>
+  </tr>
+  <tr>
+    	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI
+		  <ul>
+		    <li>Includes stretched-grid capability</li>
+		  </ul>
+		</td>
+    	<td>Dandan Zhang (Harvard)</td>
+  </tr>
 </table>
 
 <h3>Looking Forward<span><img src = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-trend-up.svg" style = "height: 25px; width: 25px; margin-bottom: 5px; margin-left: 10px;"></span></h3>
 <table style="font-size:0.9em width=100%">
-	  <tr>
+	<tr>
     	<th style="width=70%">Feature</th>
     	<th>Developer(s)</th>
+    </tr>
+	<tr>
+	    <td>Near-real-time / low-latency capability</td>
+	    <td>Lucas Estrada (Harvard)<br>Melissa Sulprizio (Harvard)</td>
+	</tr>
+    <tr>
+    	<td>Automated benchmarking of IMI</td>
+    	<td>Melissa Sulprizio (Harvard)</td>
     </tr>
     <tr>
     	<td>Incorporation of point sources</td>
@@ -52,8 +64,8 @@ permalink: /developments/
     	<td>Hannah Nesser (NASA JPL)</td>
     </tr>
     <tr>
- 	  	<td>ObsPack observation operator</td>
- 	 	  <td>TBD</td>
+ 	  	<td>Generalized observation operator</td>
+ 	 	<td>TBD</td>
   	</tr>
     <tr>
     	<td>Integration of MethaneSAT data into the IMI</td>
@@ -67,14 +79,6 @@ permalink: /developments/
           </ul>
         </td>
     	<td>Hannah Nesser (NASA JPL)</td>
-    </tr>
-    <tr>
-    	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI
-		  <ul>
-		    <li>Includes stretched-grid capability</li>
-		  </ul>
-		</td>
-    	<td>Dandan Zhang (Harvard)</td>
     </tr>
     <tr>
     	<td>Prior error correlations</td>
