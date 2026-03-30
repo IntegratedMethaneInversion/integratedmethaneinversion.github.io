@@ -197,7 +197,7 @@ permalink: /people/
         <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=516">
             <img src="../assets/people/zichong.jpeg" alt="Zichong Cheng" class="team-member-img">
         </a>
-        <p style="margin-bottom: 0.2rem">Zichong Cheng</p>
+        <p style="margin-bottom: 0.2rem">Zichong Chen</p>
         <p id = "title">Collaborator, HKUST</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:zichongchen@hkust-gz.edu.cn">
