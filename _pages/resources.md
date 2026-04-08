@@ -42,13 +42,11 @@ Varon, D.J., D.J. Jacob, M. Sulprizio, L.A. Estrada, W.B. Downs, L. Shen, S.E. H
 
 <h1>Workshops</h1>
 
-<h2>IMI - Integral Earth Workshop</h2>
+<h2>IMI Workshop</h2>
 
 <p>On November 4, 2024, the Harvard Atmospheric Chemistry Modeling Group and Salata Institute for Climate and Sustainability held a virtual workshop for current and prospective IMI users.</p>
 
 <p>The workshop comprised a series of short presentations by the IMI development team highlighting the tool’s capabilities followed by discussion. Presentations covered the principles for quantifying methane emissions by analytical inversions of satellite observations, the implementation of these principles in the IMI, the range of IMI capabilities, and how to run the IMI.</p>
-
-<p>The workshop also introduced the web-based <a href="http://integralearth.github.io" target="#"><strong>Integral Earth</strong></a>, which enables easy access to the IMI by non-expert users.</p>
 
 <h3>Presentation Recording</h3>
 

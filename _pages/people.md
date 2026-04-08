@@ -99,28 +99,6 @@ permalink: /people/
     </div>
 
     <div class="team-member">
-        <a href="https://www.linkedin.com/in/john-steed-thomas/">
-            <img src="../assets/people/thomas.jpeg" alt="John Thomas" class="team-member-img">
-        </a>
-        <p style="margin-bottom: 0.2rem">John Thomas</p>
-        <p id = "title"><a href = "https://integralearth.github.io/" target = "#" style = "color: inherit;">Integral Earth</a> Lead Developer</p>
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <a href="mailto:johnthomas@seas.harvard.edu">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-            <a href="https://juanitodelatorre.github.io/john-thomas/">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-            <a href="https://www.linkedin.com/in/john-steed-thomas/">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-            <a href="https://github.com/JohnThomasSEAS">
-            	<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-        </div>
-    </div>
-
-    <div class="team-member">
         <a href="https://www.sron.nl/en/pillars/our-people/ilse-aben/">
             <img src="../assets/people/ilse.jpeg" alt="Ilse Aben" class="team-member-img">
         </a>

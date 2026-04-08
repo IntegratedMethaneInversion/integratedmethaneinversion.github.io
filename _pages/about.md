@@ -61,11 +61,6 @@ An IMI preview feature allows the users to display the satellite observations fo
     </a>
 </div>
 
-<hr />
-<p>
-<a href="https://integralearth.github.io">Integral Earth</a>, a simple web interface, allows non-experts to access the IMI with no learning curve. Users can request inversions with review by the IMI team and view inversion results through interactive visualizations.
-</p>
-
 <p align="center">
 		<img src="../assets/plots/model.png" alt="Image depicting inversion workflow">
 </p>
