@@ -62,12 +62,12 @@ An IMI preview feature allows the users to display the satellite observations fo
 </div>
 
 <p align="center">
-		<img src="../assets/plots/model.png" alt="Image depicting inversion workflow">
+		<img src="../assets/images/model.png" alt="Image depicting inversion workflow">
 </p>
 
 <p align="center">
-		<img src="../assets/plots/optimized_emissions.png" alt="Map of optimized methane emissions"/> &nbsp;&nbsp;&nbsp;
-		<img src="../assets/plots/emissions_timeline.png" alt="Methane emission timeseries"/>
+		<img src="../assets/images/optimized_emissions.png" alt="Map of optimized methane emissions"/> &nbsp;&nbsp;&nbsp;
+		<img src="../assets/images/emissions_timeline.png" alt="Methane emission timeseries"/>
 </p>
 
 </div>
