@@ -10,7 +10,9 @@ main:
     url: /developments/
   - title: "People"
     url: /people/
-  - title: "Publications"
-    url: /publications/
   - title: "Resources"
     url: /resources/
+  - title: "Publications"
+    url: /publications/
+  - title: "Tools"
+    url: /tools/
