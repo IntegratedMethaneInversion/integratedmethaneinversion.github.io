@@ -52,10 +52,6 @@ permalink: /developments/
 	    <td>Lucas Estrada (Harvard)<br>Melissa Sulprizio (Harvard)</td>
 	</tr>
     <tr>
-    	<td>Automated benchmarking of IMI</td>
-    	<td>Melissa Sulprizio (Harvard)</td>
-    </tr>
-    <tr>
     	<td>Incorporation of point sources</td>
     	<td>James East (Harvard)</td>
     </tr>
@@ -65,7 +61,7 @@ permalink: /developments/
     </tr>
     <tr>
  	  	<td>Generalized observation operator</td>
- 	 	<td>TBD</td>
+ 	 	<td>Vedant Rautela (MIT)</td>
   	</tr>
     <tr>
     	<td>Integration of MethaneSAT data into the IMI</td>
@@ -83,6 +79,10 @@ permalink: /developments/
     <tr>
     	<td>Prior error correlations</td>
     	<td>Nick Balasus (Harvard)</td>
+    </tr>
+    <tr>
+    	<td>Automated benchmarking of IMI</td>
+    	<td>Melissa Sulprizio (Harvard)</td>
     </tr>
 </table>
 
