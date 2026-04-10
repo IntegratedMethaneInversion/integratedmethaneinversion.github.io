@@ -77,28 +77,6 @@ permalink: /people/
     </div>
 
     <div class="team-member">
-        <a href="https://msulprizio.github.io/">
-            <img src="../assets/people/sulprizio.jpeg" alt="Melissa Sulprizio" class="team-member-img">
-        </a>
-        <p style="margin-bottom: 0.2rem">Melissa Sulprizio</p>
-        <p id = "title">IMI Software Engineer, Harvard</p>
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <a href="mailto:mpayer@seas.harvard.edu">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-            <a href="http://msulprizio.github.io/">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-            <a href="https://www.linkedin.com/in/melissa-sulprizio-95b39421/">
-                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-            <a href="https://github.com/msulprizio">
-            	<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
-            </a>
-        </div>
-    </div>
-
-    <div class="team-member">
         <a href="https://www.sron.nl/en/pillars/our-people/ilse-aben/">
             <img src="../assets/people/ilse.jpeg" alt="Ilse Aben" class="team-member-img">
         </a>
@@ -213,3 +191,68 @@ permalink: /people/
         </div>
 
     </div>
+</div>
+    
+<h2 style="text-align: center">IMI Support Team</h2>
+<div class="team-member-container" style="margin-top: 2rem">
+
+    <div class="team-member">
+        <a href="https://msulprizio.github.io/">
+            <img src="../assets/people/sulprizio.jpeg" alt="Melissa Sulprizio" class="team-member-img">
+        </a>
+        <p style="margin-bottom: 0.2rem">Melissa Sulprizio</p>
+        <p id = "title">IMI Software Engineer, Harvard</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="mailto:mpayer@seas.harvard.edu">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="http://msulprizio.github.io/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://www.linkedin.com/in/melissa-sulprizio-95b39421/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://github.com/msulprizio">
+            	<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+        </div>
+    </div>
+
+    <div class="team-member">
+        <a href="">
+            <img src="../assets/people/rautela.jpeg" alt="Vidant Rautela" class="team-member-img">
+        </a>
+        <p style="margin-bottom: 0.2rem">Daniel Varon</p>
+        <p id = "title">Scientific Programmer, MIT</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="mailto:vedrau@mit.edu">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://www.linkedin.com/in/vedantrautela/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://github.com/vedrau">
+            	<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+        </div>
+    </div>
+    
+    <div class="team-member">
+        <a href="">
+            <img src="../assets/people/placeholder.jpeg" alt="Helena McDonald" class="team-member-img">
+        </a>
+        <p style="margin-bottom: 0.2rem">Helena McDonald</p>
+        <p id = "title">Scientific Programmer, Harvard</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="mailto:helena_mcdonald@seas.harvard.edu">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://www.linkedin.com/in/helena-mcdonald-889788229/">
+                <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+            <a href="https://github.com/mcdon1718-h">
+            	<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" style="height: 25px; width: 25px; margin-right: 10px; filter: invert(24%) sepia(59%) saturate(750%) hue-rotate(165deg) brightness(98%) contrast(104%);">
+            </a>
+        </div>
+    </div>
+</div>
