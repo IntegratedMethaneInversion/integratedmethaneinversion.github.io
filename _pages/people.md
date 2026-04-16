@@ -220,9 +220,9 @@ permalink: /people/
 
     <div class="team-member">
         <a href="">
-            <img src="../assets/people/rautela.jpeg" alt="Vidant Rautela" class="team-member-img">
+            <img src="../assets/people/rautela.jpeg" alt="Vedant Rautela" class="team-member-img">
         </a>
-        <p style="margin-bottom: 0.2rem">Vidant Rautela</p>
+        <p style="margin-bottom: 0.2rem">Vedant Rautela</p>
         <p id = "title">Scientific Programmer, MIT</p>
         <div style="display: flex; justify-content: center; align-items: center;">
             <a href="mailto:vedrau@mit.edu">
