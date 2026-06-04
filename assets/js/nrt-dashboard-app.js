@@ -10,9 +10,7 @@
 
 const DASHBOARD_CONFIG = window.NRT_DASHBOARD_CONFIG ?? {};
 const DATA_ROOT_URL = DASHBOARD_CONFIG.dataRootUrl ?? "https://conus-emissions-test-bucket.s3.amazonaws.com/";
-console.log(`Using data root URL: ${DATA_ROOT_URL}`);
 const GRID_MANIFEST_PATH = DASHBOARD_CONFIG.manifestPath;
-// const GRID_MANIFEST_PATH = DASHBOARD_CONFIG.manifestPath ?? "data/manifest.json";
 const DASHBOARD_LOAD_ID = DASHBOARD_CONFIG.loadId ?? String(Date.now());
 const GRID_COLORMAP = "ylorrd";
 const GRID_OPACITY = 0.5;
