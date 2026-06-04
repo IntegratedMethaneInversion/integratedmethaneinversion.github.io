@@ -9,7 +9,7 @@
    ========================================================= */
 
 const DASHBOARD_CONFIG = window.NRT_DASHBOARD_CONFIG ?? {};
-const DATA_ROOT_URL = DASHBOARD_CONFIG.dataRootUrl ?? "https://conus-emissions-test-bucket.s3.amazonaws.com/";
+const DATA_ROOT_URL = DASHBOARD_CONFIG.dataRootUrl;
 const GRID_MANIFEST_PATH = DASHBOARD_CONFIG.manifestPath;
 const DASHBOARD_LOAD_ID = DASHBOARD_CONFIG.loadId ?? String(Date.now());
 const GRID_COLORMAP = "ylorrd";
@@ -928,8 +928,8 @@ async function main() {
   state.manifest = await fetchManifest();
   document.title = state.manifest.title ?? document.title;
   $("panelTitle").textContent = state.manifest.title ?? $("panelTitle").textContent;
-  $("panelSubtitle").textContent =
-    state.manifest.description ?? $("panelSubtitle").textContent;
+  // $("panelSubtitle").textContent =
+  //   state.manifest.description ?? $("panelSubtitle").textContent;
 
   initControls();
   await initMap();
