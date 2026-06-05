@@ -12,30 +12,44 @@ permalink: /developments/
 
 <div class="pageWrapper">
 
-<h3>IMI 2.3.0 - expected early 2026</h3>
+<p align="center">
+  <a href="https://github.com/geoschem/integrated_methane_inversion/releases/latest"><button style = "background-color: #98C89A; outline: none; border: none; color: white; transform: scale(1.2); margin-left: 1.1rem">Current Release: IMI 2.3.0</button></a>
+</p>
+
+<h3>IMI 2.3.1 - in development</h3>
 <table style="width:100%">
   <tr>
     	<th style="width=70%">Feature</th>
     	<th>Developer(s)</th>
   </tr>
   <tr>
-    	<td>Add optimization of soil absorption</td>
-    	<td>Dandan Zhang (Harvard)</td>
+    	<td>Reduced storage footprint of jacobian runs</td>
+    	<td>Melissa Sulprizio(Harvard)</td>
   </tr>
   <tr>
-    	<td>Use GEOS-Chem carbon simulation instead of the CH4 simulation
-    	   <ul>
-             <li>Single species or joint carbon (CO2, CO, CH4, OCS) simulations</li>
-             <li>Step toward expanding the IMI into the Integrated Carbon Inversion (ICI)</li>
-           </ul>
-    	</td>
-    	<td>Melissa Sulprizio (Harvard)</td>
+    	<td>Improved treatment of boundary conditions</td>
+    	<td>Hannah Nesser (NASA JPL)</td>
   </tr>
   <tr>
-    	<td>Enable GEOS-Chem High Performance (GCHP) in the IMI
-		  <ul>
-		    <li>Includes stretched-grid capability</li>
-		  </ul>
+    	<td>Continued development of near-real-time AWS extension package</td>
+    	<td>Lucas Estrada (Harvard)</td>
+  </tr>
+  <tr>
+    	<td>Improved error characterization (Lucas Estrada)
+        	<ul>
+            	<li>Reduced averaging kernel matrix</li>
+				<li>Posterior error covariance matrix</li>
+			</ul>
+		</td>
+    	<td>Lucas Estrada (Harvard), Sarah  Hancock (Harvard)</td>
+  </tr>
+  <tr>
+    	<td>Various bug fixes and improvements
+        	<ul>
+            	<li>Turn soil optimization on by default</li>
+				<li>Fixes for stretched grid in GCHP</li>
+				<li>Re-enable capability to group Jacobian runs for speedup</li>
+			</ul>
 		</td>
     	<td>Dandan Zhang (Harvard)</td>
   </tr>
@@ -47,26 +61,27 @@ permalink: /developments/
     	<th style="width=70%">Feature</th>
     	<th>Developer(s)</th>
     </tr>
-	<tr>
-	    <td>Near-real-time / low-latency capability</td>
-	    <td>Lucas Estrada (Harvard)<br>Melissa Sulprizio (Harvard)</td>
-	</tr>
     <tr>
     	<td>Incorporation of point sources</td>
     	<td>James East (Harvard)</td>
     </tr>
+    
     <tr>
-    	<td>Regional BC error diagnostic</td>
-    	<td>Hannah Nesser (NASA JPL)</td>
+    	<td>Online visualization tool</td>
+    	<td>Helena McDonald (Harvard)</td>
+    </tr>
+    <tr>
+    	<td>Improved error characterization</td>
+    	<td>Sarah Hancock (Harvard)</td>
+    </tr>
+    <tr>
+    	<td>Integration of MethaneSAT data into the IMI</td>
+    	<td>Jack Bruno (Harvard)</td>
     </tr>
     <tr>
  	  	<td>Generalized observation operator</td>
  	 	<td>Vedant Rautela (MIT)</td>
   	</tr>
-    <tr>
-    	<td>Integration of MethaneSAT data into the IMI</td>
-    	<td>Jack Bruno (Harvard)</td>
-    </tr>
     <tr>
     	<td>Extend the IMI to CO<sub>2</sub>
     	  <ul>
@@ -77,12 +92,12 @@ permalink: /developments/
     	<td>Hannah Nesser (NASA JPL)</td>
     </tr>
     <tr>
-    	<td>Prior error correlations</td>
-    	<td>Nick Balasus (Harvard)</td>
+    	<td>Machine-learned Jacobians</td>
+    	<td>Lucas Estrada (Harvard), Dandan Zhang (Harvard)</td>
     </tr>
     <tr>
     	<td>Automated benchmarking of IMI</td>
-    	<td>Melissa Sulprizio (Harvard)</td>
+    	<td>IMI Support Team</td>
     </tr>
 </table>
 
