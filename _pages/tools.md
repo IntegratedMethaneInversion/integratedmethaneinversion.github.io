@@ -28,3 +28,9 @@ permalink: /tools/
 	<a href="https://laestrada.github.io/conus_emissions_viz/" target="_"><img src="../assets/images/CONUS_Emissions-Preview.png" alt="Preview of CONUS Methane Emissions online visualization tool"></a>
 </p>
 
+<h2>Weekly Permian Methane Emissions for 2019-2023</h2>
+
+<p><a href="https://pubs.acs.org/doi/10.1021/acs.est.5c08745" target="_">Varon et al. (2025)</a> have generated a <a href="https://carboninversion.com/nrt-imi/" target="_">custom dashboard</a> for visualizing IMI weekly methane emission estimates over the Permian basin from 2019-2023</p>
+<p align="center">
+	<a href="https://carboninversion.com/nrt-imi/" target="_"><img src="../assets/images/Permian_Emissions-Preview.png" alt="Preview of Permian Methane Emissions online visualization tool"></a>
+</p>
