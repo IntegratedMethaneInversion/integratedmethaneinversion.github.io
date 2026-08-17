@@ -44,16 +44,13 @@ permalink: /about/
 
 <div class="pageWrapper">
 
-<p>
-The Integrated Methane Inversion (IMI) is a user-friendly research-grade cloud-computing tool for <strong>estimating total methane emissions for any domain and period of interest</strong> by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders to <strong>infer methane emissions at up to 0.125° × 0.15625° (≈ 12 × 12 km²) spatial resolution</strong> and up to weekly temporal resolution from <a href="https://registry.opendata.aws/sentinel5p/">TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud</a>, without requiring
-expert knowledge of inverse methods or cumbersome data download. 
-<br>
-<br>
-The IMI uses the <a href="https://geoschem.github.io/">GEOS-Chem 3-D chemical transport model</a> driven by NASA Goddard Earth Observing System (GEOS) meteorological data as a forward model for the inversion. It uses <strong>cutting-edge algorithms developed by the <a href="https://carboninversion.com/people/">IMI team</a></strong> and is documented extensively in peer-reviewed research literature. The IMI is <strong>strongly documented and fully open-source to ensure transparency, reproducibility, and integrity of the results.</strong>
-<br>
-<br>
-An IMI preview feature allows the users to display the satellite observations for their domain and period of interest along with prior emission inventories, point source data, and expected information to be achieved from the inversion.
-</p>
+<p>The Integrated Methane Inversion (IMI) is a user-friendly research-grade cloud-computing tool for <strong>estimating total methane emissions for any domain and period of interest</strong> by analytical inversion of satellite observations from the TROPOspheric Monitoring Instrument (TROPOMI). It enables researchers and stakeholders to <strong>infer methane emissions at up to 0.125° × 0.15625° (≈ 12 × 12 km²) spatial resolution</strong> and up to weekly temporal resolution from <a href="https://registry.opendata.aws/sentinel5p/">TROPOMI satellite data resident on the Amazon Web Services (AWS) cloud</a>, without requiring expert knowledge of inverse methods or cumbersome data download. The IMI can also be downloaded to local computing clusters.</p>
+
+<p>The IMI uses the <a href="https://geoschem.github.io/">GEOS-Chem 3-D chemical transport model</a> driven by NASA Goddard Earth Observing System (GEOS) meteorological data as a forward model for the inversion. It uses <strong>cutting-edge algorithms developed by the <a href="https://carboninversion.com/people/">IMI team</a></strong> and is documented extensively in peer-reviewed research literature. The IMI is <strong>strongly documented and fully open-source to ensure transparency, reproducibility, and integrity of the results.</strong></p>
+
+<p>The IMI can be run out of the box by simple editing of a configuration file. Advanced users can modify inversion parameters, use different prior information, evaluate results with independent data sets, explore configurations to maximize information content, and more. A <a href="https://mcdon1718-h.github.io/IMI-viz-fromscratch/" target="">web user interface</a> allows users to explore interactively their output and share it with stakeholders.</p>
+
+<p>An IMI preview feature allows the users to display the satellite observations for their domain and period of interest along with prior emission inventories, point source data, and expected information to be achieved from the inversion.</p>
 
 <div style="display: flex; justify-content: center; align-items: center">
 	<a href="https://imi.readthedocs.io/en/latest/getting-started/quick-start.html">

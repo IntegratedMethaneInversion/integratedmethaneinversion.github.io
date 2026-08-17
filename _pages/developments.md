@@ -13,35 +13,34 @@ permalink: /developments/
 <div class="pageWrapper">
 
 <p align="center">
-  <a href="https://github.com/geoschem/integrated_methane_inversion/releases/latest"><button style = "background-color: #98C89A; outline: none; border: none; color: white; transform: scale(1.2); margin-left: 1.1rem">Current Release: IMI 2.3.0</button></a>
+  <a href="https://github.com/geoschem/integrated_methane_inversion/releases/latest"><button style = "background-color: #98C89A; outline: none; border: none; color: white; transform: scale(1.2); margin-left: 1.1rem">Current Release: IMI 2.3.1</button></a>
 </p>
 
-<h3>IMI 2.3.1 - in development</h3>
+<h3>IMI 2.4.0 - in development</h3>
 <table style="width:100%">
   <tr>
     	<th style="width=70%">Feature</th>
     	<th>Developer(s)</th>
   </tr>
   <tr>
-    	<td>Reduced storage footprint of jacobian runs</td>
-    	<td>Melissa Sulprizio(Harvard)</td>
+  		<td>Generalized observation operator</td>
+		<td>Vedant Rautela (MIT)</td>
   </tr>
   <tr>
-    	<td>Improved treatment of boundary conditions</td>
-    	<td>Hannah Nesser (NASA JPL)</td>
+    	<td>Online visualization tool</td>
+    	<td>Helena McDonald (Harvard)</td>
+  </tr>
+  <tr>
+    	<td>Reduced storage footprint of jacobian runs</td>
+    	<td>Melissa Sulprizio(Harvard)</td>
   </tr>
   <tr>
     	<td>Continued development of near-real-time AWS extension package</td>
     	<td>Lucas Estrada (Harvard)</td>
   </tr>
   <tr>
-    	<td>Improved error characterization (Lucas Estrada)
-        	<ul>
-            	<li>Reduced averaging kernel matrix</li>
-				<li>Posterior error covariance matrix</li>
-			</ul>
-		</td>
-    	<td>Lucas Estrada (Harvard), Sarah  Hancock (Harvard)</td>
+    	<td>Improved error characterization</td>
+    	<td>Sarah  Hancock (Harvard)</td>
   </tr>
   <tr>
     	<td>Various bug fixes and improvements
@@ -65,31 +64,17 @@ permalink: /developments/
     	<td>Incorporation of point sources</td>
     	<td>James East (Harvard)</td>
     </tr>
-    
-    <tr>
-    	<td>Online visualization tool</td>
-    	<td>Helena McDonald (Harvard)</td>
-    </tr>
-    <tr>
-    	<td>Improved error characterization</td>
-    	<td>Sarah Hancock (Harvard)</td>
-    </tr>
     <tr>
     	<td>Integration of MethaneSAT data into the IMI</td>
     	<td>Jack Bruno (Harvard)</td>
     </tr>
     <tr>
- 	  	<td>Generalized observation operator</td>
- 	 	<td>Vedant Rautela (MIT)</td>
-  	</tr>
-    <tr>
     	<td>Extend the IMI to CO<sub>2</sub>
     	  <ul>
     	     <li>Options for OCO-2/3, GOSAT-GW, CO2M</li>
-             <li>IMI will be renamed to Integrated Carbon Inversion (ICI)</li>
           </ul>
         </td>
-    	<td>Hannah Nesser (NASA JPL)</td>
+    	<td>Hannah Nesser (Geosgetown)</td>
     </tr>
     <tr>
     	<td>Machine-learned Jacobians</td>
