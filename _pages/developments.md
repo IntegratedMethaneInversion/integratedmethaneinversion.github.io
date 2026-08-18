@@ -74,7 +74,7 @@ permalink: /developments/
     	     <li>Options for OCO-2/3, GOSAT-GW, CO2M</li>
           </ul>
         </td>
-    	<td>Hannah Nesser (Geosgetown)</td>
+    	<td>Hannah Nesser (Georgetown)</td>
     </tr>
     <tr>
     	<td>Machine-learned Jacobians</td>
