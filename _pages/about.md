@@ -67,4 +67,8 @@ permalink: /about/
 		<img src="../assets/images/emissions_timeline.png" alt="Methane emission timeseries"/>
 </p>
 
+<p align="center">
+		<img src="../assets/images/viz-dashboard.png" alt="Preview of IMI output dashboard>
+</p>
+
 </div>
