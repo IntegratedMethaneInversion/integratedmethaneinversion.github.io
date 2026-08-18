@@ -78,7 +78,7 @@ permalink: /developments/
     </tr>
     <tr>
     	<td>Machine-learned Jacobians</td>
-    	<td>Lucas Estrada (Harvard), Dandan Zhang (Harvard)</td>
+    	<td>Lucas Estrada (MIT), Dandan Zhang (Harvard)</td>
     </tr>
     <tr>
     	<td>Automated benchmarking of IMI</td>
