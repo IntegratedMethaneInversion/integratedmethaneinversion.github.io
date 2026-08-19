@@ -1,7 +1,8 @@
 ---
-layout: null
+layout: default
 title: User Groups
 permalink: /users/
+leaflet: true
 ---
 
 <style>
@@ -11,7 +12,7 @@ permalink: /users/
 </style>
 
 <div class="pageWrapper">
-    
+
 <link type="text/css" rel="stylesheet" href="leaflet/leaflet.css" media="all">
 <script type="text/javascript" src="leaflet/leaflet.js"></script>
 <script type="text/javascript" src="leaflet/leaflet-color-markers.js"></script>
@@ -62,6 +63,14 @@ permalink: /users/
 
   // Academia Sinica
   L.marker([25.04223125274816, 121.6161467245319], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>Academia Sinica</strong><br>Taipei City, Taiwan</strong><ul><li><a href='https://rcec.sinica.edu.tw/index_en.php' target='_new'>Research Center for Environmental Changes</a></li></ul>");
+
+  // Brigham Young University
+  L.marker([40.25183212150704, -111.6492125312556], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>Brigham Young University</strong><br>Provo, Utah, USA<ul><li><a href='https://ignite.byu.edu/' target='_new'>CTRFlow Group</a></li></ul>");
+
+  // California Air Resources Board
+  L.marker([38.57887108904111, -121.49544528407829], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>California Air Resources Board</strong><br>Sacramento, California, USA<ul><li><a href='https://ww2.arb.ca.gov/air-quality-planning-and-science-division' target='_new'>Website</a></li></ul>");
+
+
 
 
   //----------------------------------------------------------
