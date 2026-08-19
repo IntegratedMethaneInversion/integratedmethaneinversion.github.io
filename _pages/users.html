@@ -4,8 +4,17 @@ title: User Groups
 permalink: /users/
 ---
 
-<!doctype html>
-<html lang="en">
+<style>
+  .pageWrapper {
+    padding: 3% 12%;
+  }
+</style>
+
+<div class="pageWrapper">
+    
+<link type="text/css" rel="stylesheet" href="leaflet/leaflet.css" media="all">
+<script type="text/javascript" src="leaflet/leaflet.js"></script>
+<script type="text/javascript" src="leaflet/leaflet-color-markers.js"></script>
 
 <style>
     #title {
@@ -16,6 +25,14 @@ permalink: /users/
 
 <hr>
 <h2 style="text-align: center">IMI User Groups</h2>
+
+<p>
+  This map shows locations of registered IMI user groups and provides links to groups research web sites for more information. To register your group, please contact the IMI Support Team at <a href="mailto:integrated-methane-inversion@g.harvard.edu">integrated-methane-inversion@g.harvard.edu</a> with a brief description of your project.
+</p>
+
+<p align="center">
+	Last updated: Aug 2026
+</p>
 
 <!-- Map -->
 <div id="mapid" style="width:100%; max-width:950px; height:633px; margin:auto; z-index: 1; margin-bottom: 2em; border: solid 4px #027ac6; border-radius: 1em;">
@@ -51,10 +68,10 @@ permalink: /users/
   // PUT MIT AND HARVARD AT THE BOTTOM TO MAKE PINS SHOW UP
   //----------------------------------------------------------
   // MIT
-  L.marker([42.360178157748685, -71.0938488595402], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>MIT</strong><br>Cambridge, Massachusetts, USA</strong><ul><li><a href='https://aeroastro.mit.edu/people/daniel-varon/' target='_new'>AeroAstro</a></li><li><a href='http://lae.mit.edu/' target='_new'>MIT Laboratory for Avation and the Environment</a></li><li><a href='https://www.selingroup.org/' target='_new'>Selin Group</a></li><li><a href='https://www.teampaccc.mit.edu/' target='_new'>TEAMPACCC</a></li><li><a href='http://babbin.scripts.mit.edu/arb/about-us/' target='_new'>BabLab</a></li><li><a href='https://cs3.mit.edu/' target='_new'>MIT Center for Sustainability Science and Strategy</li></ul>");
+  L.marker([42.360178157748685, -71.0938488595402], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>MIT</strong><br>Cambridge, Massachusetts, USA</strong><ul><li><a href='https://varon.mit.edu/' target='_new'>Varon Lab</li></ul>");
 
   // Harvard University
-  L.marker([42.37818342249387, -71.1170904947079], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>Harvard University</strong><br>Cambridge, Massachusetts, USA<ul><li><a href='http://acmg.seas.harvard.edu/' target='_new'>Harvard Atmospheric Chemistry Modeling Group</a></li><li><a href='https://chinaproject.harvard.edu/' target='_new'>Harvard China Project</a></li><li><a href='https://sunderlandlab.org/' target='_new'>Biogeochemistry of Global Contaminents Research Group</a></li><li><a href='https://www.cfa.harvard.edu/' target='_new'>Harvard-Smithsonian Center for Astrophysics</a></li></ul>");
+  L.marker([42.37818342249387, -71.1170904947079], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>Harvard University</strong><br>Cambridge, Massachusetts, USA<ul><li><a href='http://acmg.seas.harvard.edu/' target='_new'>Harvard Atmospheric Chemistry Modeling Group</a></li></ul>");
 
 
   var popup = L.popup();
