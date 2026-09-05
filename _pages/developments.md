@@ -39,6 +39,10 @@ permalink: /developments/
     	<td>Lucas Estrada (Harvard)</td>
   </tr>
   <tr>
+        <td>Fix for inversion using lognormal prior error PDF</td>
+        <td>Xialin Wang (Harvard), Sarah Hancock (Harvard)</td>
+  </tr>
+  <tr>
     	<td>Improved error characterization</td>
     	<td>Sarah  Hancock (Harvard)</td>
   </tr>
@@ -66,7 +70,7 @@ permalink: /developments/
     </tr>
     <tr>
     	<td>Integration of MethaneSAT data into the IMI</td>
-    	<td>Jack Bruno (Harvard)</td>
+        <td>Jack Bruno (Harvard), Vedant Rautela (MIT)</td>
     </tr>
     <tr>
     	<td>Extend the IMI to CO<sub>2</sub>
@@ -80,6 +84,10 @@ permalink: /developments/
     	<td>Machine-learned Jacobians</td>
     	<td>Lucas Estrada (MIT), Dandan Zhang (Harvard)</td>
     </tr>
+	<tr>
+	    <td>Inclusion of non-satellite observations in the IMI</td>
+	    <td>Lee Murray (Rochester)</td>
+	</tr>
     <tr>
     	<td>Automated benchmarking of IMI</td>
     	<td>IMI Support Team</td>
