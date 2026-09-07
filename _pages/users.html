@@ -11,10 +11,6 @@ leaflet: true
   }
 </style>
 
-<link type="text/css" rel="stylesheet" href="leaflet/leaflet.css" media="all">
-<script type="text/javascript" src="leaflet/leaflet.js"></script>
-<script type="text/javascript" src="leaflet/leaflet-color-markers.js"></script>
-
 <div class="pageWrapper">
 
 <h1>
@@ -33,6 +29,7 @@ leaflet: true
 </p>
 
 <!-- Map -->
+<!-- leaflet is loaded by _includes/head.html via `leaflet: true` -->
 <div id="mapid" style="width:100%; max-width:950px; height:633px; margin:auto; z-index: 1; margin-bottom: 2em; border: solid 4px #027ac6; border-radius: 1em;">
 </div>
 <script>
@@ -208,9 +205,5 @@ leaflet: true
   // Harvard University
   L.marker([42.37818342249387, -71.1170904947079], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>Harvard University</strong><br>Cambridge, Massachusetts, USA<ul><li><a href='http://acmg.seas.harvard.edu/' target='_new'>Harvard Atmospheric Chemistry Modeling Group</a></li></ul>");
 
-
-  var popup = L.popup();
-
-  mymap.on('click', onMapClick);
 
 </script>
