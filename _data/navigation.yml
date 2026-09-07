@@ -10,6 +10,13 @@ main:
     url: /developments/
   - title: "People"
     url: /people/
+    children:
+      - title: "Steering Committee"
+        url: /steering-committee/
+      - title: "Support Team"
+        url: /support-team/
+      - title: "IMI Community"
+        url: /community/
   - title: "Resources"
     url: /resources/
   - title: "Publications"

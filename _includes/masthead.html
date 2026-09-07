@@ -15,6 +15,83 @@
       display: block;
     }
   }
+
+  /* Dropdown menus for nav items with `children` in _data/navigation.yml */
+  .greedy-nav .visible-links {
+    /* let the submenu escape the nav bar instead of being clipped */
+    overflow: visible;
+  }
+
+  .masthead__menu-item.has-children {
+    position: relative;
+  }
+
+  .submenu__caret {
+    margin-left: 0.35em;
+    font-size: 0.8em;
+    vertical-align: middle;
+  }
+
+  .visible-links .has-children > .submenu {
+    position: absolute;
+    top: 100%;
+    left: 1rem; /* line up with the parent link, which has 1rem side margins */
+    z-index: 30;
+    min-width: 12rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  .visible-links .has-children:hover > .submenu,
+  .visible-links .has-children:focus-within > .submenu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .visible-links .has-children > .submenu li {
+    display: block;
+    border-bottom: 1px solid #f2f3f3;
+  }
+
+  .visible-links .has-children > .submenu li:last-child {
+    border-bottom: none;
+  }
+
+  .visible-links .has-children > .submenu a {
+    display: block;
+    margin: 0;
+    padding: 0.65em 1em;
+    white-space: nowrap;
+  }
+
+  /* no sliding green underline on submenu entries */
+  .visible-links .has-children > .submenu a:before {
+    display: none;
+  }
+
+  .visible-links .has-children > .submenu a:hover {
+    color: #57af65;
+    background: #f2f3f3;
+  }
+
+  /* In the collapsed/overflow menu, show children as an indented list */
+  .hidden-links .has-children > .submenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .hidden-links .has-children > .submenu a {
+    padding-left: 40px;
+  }
 </style>
 
 <div class="masthead">
@@ -35,7 +112,9 @@
         /></a>
         <ul class="visible-links" style="padding-top: 2rem">
           {%- for link in site.data.navigation.main -%}
-          <li class="masthead__menu-item">
+          <li
+            class="masthead__menu-item{% if link.children %} has-children{% endif %}"
+          >
             <a
               href="{{ link.url | relative_url }}"
               {%
@@ -54,8 +133,39 @@
               {%
               endif
               %}
-              >{{ link.title }}</a
+              {%
+              if
+              link.children
+              %}
+              aria-haspopup="true"
+              {%
+              endif
+              %}
+              >{{ link.title }}{% if link.children %}<i
+                class="fas fa-angle-down submenu__caret"
+                aria-hidden="true"
+              ></i>{% endif %}</a
             >
+            {%- if link.children -%}
+            <ul class="submenu">
+              {%- for child in link.children -%}
+              <li>
+                <a
+                  href="{{ child.url | relative_url }}"
+                  {%
+                  if
+                  child.target
+                  %}
+                  target="{{ child.target }}"
+                  {%
+                  endif
+                  %}
+                  >{{ child.title }}</a
+                >
+              </li>
+              {%- endfor -%}
+            </ul>
+            {%- endif -%}
           </li>
           {%- endfor -%}
         </ul>
@@ -78,7 +188,9 @@
         </button>
         <ul class="hidden-links hidden">
           {%- for link in site.data.navigation.main -%}
-          <li class="masthead__menu-item">
+          <li
+            class="masthead__menu-item{% if link.children %} has-children{% endif %}"
+          >
             <a
               href="{{ link.url | relative_url }}"
               {%
@@ -99,6 +211,26 @@
               %}
               >{{ link.title }}</a
             >
+            {%- if link.children -%}
+            <ul class="submenu">
+              {%- for child in link.children -%}
+              <li>
+                <a
+                  href="{{ child.url | relative_url }}"
+                  {%
+                  if
+                  child.target
+                  %}
+                  target="{{ child.target }}"
+                  {%
+                  endif
+                  %}
+                  >{{ child.title }}</a
+                >
+              </li>
+              {%- endfor -%}
+            </ul>
+            {%- endif -%}
           </li>
           {%- endfor -%}
         </ul>
