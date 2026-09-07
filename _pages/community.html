@@ -9,6 +9,36 @@ leaflet: true
   .pageWrapper {
     padding: 3% 12%;
   }
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #98c89a;
+  color: white;
+}
+
+/* Size of the icons in the counter cards */
+.card .fa {
+  font-size: 50px;
+}
 </style>
 
 <div class="pageWrapper">
@@ -17,9 +47,31 @@ leaflet: true
    <span style="color: #98c89a">IMI Community</span>
 </h1>
 
-<p>
-  This map shows locations of registered IMI user groups and provides links to groups research web sites for more information. To register your group, please contact the IMI Support Team at <a href="mailto:integrated-methane-inversion@g.harvard.edu">integrated-methane-inversion@g.harvard.edu</a> with a brief description of your project, PI name, and group website.
-</p>
+<!-- Buttons link to user page-->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <span style="font-size:30px;">100+ Users</span>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-building"></i></p>
+      <span style="font-size:30px;">50+ Institutions</span>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-globe"></i></p>
+      <span style="font-size:30px;">17 Countries</span>
+    </div>
+  </div>
+</div>
+
+<br>
 
 <!-- Map -->
 <!-- leaflet is loaded by _includes/head.html via `leaflet: true` -->
@@ -199,6 +251,10 @@ leaflet: true
   L.marker([42.37818342249387, -71.1170904947079], { icon: blueIcon }).addTo(mymap).bindPopup("<strong>Harvard University</strong><br>Cambridge, Massachusetts, USA<ul><li><a href='http://acmg.seas.harvard.edu/' target='_new'>Harvard Atmospheric Chemistry Modeling Group</a></li></ul>");
 
 </script>
+
+<p>
+  This map shows locations of registered IMI user groups and provides links to groups research web sites for more information. To register your group, please contact the IMI Support Team at <a href="mailto:integrated-methane-inversion@g.harvard.edu">integrated-methane-inversion@g.harvard.edu</a> with a brief description of your project, PI name, and group website.
+</p>
 
 <p align="center">
 	Last updated: September 2026
