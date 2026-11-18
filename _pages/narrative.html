@@ -1,0 +1,99 @@
+---
+layout: default
+title: Narrative description and how to reference the IMI
+permalink: /narrative/
+---
+
+<style>
+  .pageWrapper {
+    padding: 3% 12%;
+  }
+</style>
+
+<div class="pageWrapper">
+
+<h1 align="center">
+  <span style="color: #98c89a">Narrative description and how to reference the IMI</span>
+</h1>
+
+<p align="center"><i>Updated November 2026</i></p>
+
+<p align="center">
+  <a href="#versions">Versions</a> | 
+  <a href="#generalreferences">General references</a> | 
+  <a href="#blended">Blended TROPOMI+GOSAT</a> |
+  <a href="#superobs">Super-observations</a> | 
+  <a href="#kalmanfilter">Kalman filter</a> |
+  <a href="#oh">OH inversion</a> | 
+  <a href="#global">Global inversion</a> |
+  <a href="#lognormal">Lognormal errors</a> |
+  <a href="#12km">12-km resolution</a> |
+  <a href="#osse">OSSE</a> |
+  <a href="#soilsink">Soil sink</a> |
+  <a href="#gchp">GCHP</a> |
+  <a href="#bcs">Boundary conditions</a> | 
+  <a href="#references">References</a>
+</p>
+
+<p>We give here a list of general and feature-specific references for the IMI. We encourage you to be generous in citations—this not only recognizes the developer's work but also increases the traceability of your paper. </p>
+
+<p>This page is updated by the <a href="steering-committee.html">IMI Steering Committee</a> at every X.Y version release.</p>
+
+<h2>
+  <a name="versions" id="versions"></a>IMI versions
+</h2>
+
+The IMI version should be identified as “IMI version X.Y.Z ( DOI number)”, as listed on the <a href="https://github.com/geoschem/integrated_methane_inversion/releases">Version History</a> page. We encourage you to name the IMI in your Abstract so that your paper gets picked up by IMI searches and gets listed in the IMI publications page.
+
+<h2>
+  <a name="generalreferences" id="generalreferences"></a>General references
+</h2>
+
+<ul>
+  <li>Varon et al. (2022) is the original reference for the IMI (version 1.0). It describes the basic architecture, working with satellite data, and the Bayesian analytical inversion used in the IMI.</li>
+	<li>Estrada et al. (2025) is the general current reference for the IMI, describing version 2.0 and its improvements over IMI 1.0 as listed in its Table 1. It is the original reference for some of these improvements, while other improvements have specific original references as listed below. </li>
+</ul>
+
+<p>The IMI uses GEOS-Chem as forward model. The best general reference for GEOS-Chem as applied to methane is Maasakkers et al. (2019). </p>
+
+<h2>Specific references</h2>
+
+<p>We list here original references for features introduced in the IMI from version 2.0 onwards. Most represent options that can be turned on or off by the user. You are encouraged to cite these original references if important for your work. </p>
+
+<ul>
+  <li><a name="blended" id="blended"></a><b><i>Blended TROPOMI+GOSAT observations</i></b>, introduced in IMI 2.0 by Balasus et al. (2023). The blended product applies machine learning to correct the SRON TROPOMI product  to GOSAT observations, using collocated observations from the two instruments to train the ML model.</li>
+  <li><a name="superobs" id="superobs"></a><b><i>Super-observations</i></b>, introduced in IMI 2.0 by Chen et al. (2023). This averages TROPOMI observations over state vector elements for a given orbit before ingestion in the inversion, with reduction in observational error that accounts for error covariance in individual observations.</li>
+  <li><a name="kalmanfilter" id="kalmanfilter"></a><b><i>Kalman filter</i></b>, introduced in IMI 2.0 by Varon et al. (2023). It allows you to break a long inversion into smaller time periods, with the posterior estimate from a given period used as prior estimate for the next period, and including user-selected nudging to the original prior estimate.</li>
+  <li><a name="oh" id="oh"></a><b><i>OH inversion capability</i></b>, introduced in IMI 2.0 following Y. Zhang et al. (2018). This allows optimization of hemispheric or domain-wide OH concentrations together with gridded emissions.</li>
+  <li><a name="global" id="global"></a><b><i>Global inversion capability</i></b>, developed through a succession of papers but best traced to Maasakkers et al. (2019) for a formulation of the current architecture.</li>
+  <li><a name="lognormal" id="lognormal"></a><b><i>Lognormal prior error pdfs</i></b>, introduced in IMI 2.0 following Maasakkers et al. (2019) with subsequent corrections from Hancock et al. (2025).</li>
+  <li><a name="12km" id="12km"></a><b><i>12x12 km2 resolution capability</i></b>, introduced in IMI 2.2 by Wang et al. (2026a). This enables IMI inversions at the 0.125ox0.15625o (≈12x12 km2) native resolution of the GEOS-FP data.</li>
+  <li><a name="osse" id="osse"></a><b><i>Observation System Simulation Experiment (OSSE) capability</i></b>, introduced in IMI 2.2.1 by Wang et al. (2026b). This replaces the actual observations with synthetic observations generated from the prior emission estimates with user-selected errors applied.</li>
+  <li><a name="soilsink" id="soilsink"></a><b><i>Soil sink optimization</i></b>, introduced in IMI 2.3 by He et al. (2026). This includes the soil sink as part of the optimization of surface fluxes, with post-processing to separate the soil sink from emissions.</li>
+  <li><a name="global" id="global"></a><b><i>Global GEOS-Chem High Performance (GCHP) inversions</i></b>, introduced in IMI 2.3 by D. Zhang et al. (2026). This allows use of GCHP as forward model for global inversions, including a stretched-grid capability for high resolution on a target face of the GCHP cubed-sphere grid.</li>
+  <li><a name="bcs" id="bcs"></a><b><i>Improved boundary condition optimization</i></b>, introduced in IMI 2.3.1 by Nesser et al. (2025). This provides improved defaults for the definition of buffer zones and boundary conditions around the regional domain of interest to the inversion.</li>
+</ul>
+
+<h2>
+  <a name="references" id="references"></a>References
+</h2>
+
+<ul>
+  <li>Balasus, N., D.J. Jacob, A.Lorente, J.D. Maasakkers, R.J. Parker, H.Boesch, Z.Chen, M.M. Kelp, H.Nesser, and D.J. Varon, A blended TROPOMI+GOSAT satellite data product for atmospheric methane using machine learning to correct retrieval biases, Atmos. Meas. Tech., 16, 3787–3807, <a href="https://doi.org/10.5194/amt-16-3787-2023" target="">https://doi.org/10.5194/amt-16-3787-2023</a>, 2023.</li>
+  <li>Chen, Z., Jacob, D. J., Gautam, R., Omara, M., Stavins, R. N., Stowe, R. C., Nesser, H. O., Sulprizio, M. P., Lorente, A., Varon, D. J., Lu, X., Shen, L., Qu, Z., Pendergrass, D. C., and Hancock, S.: Satellite quantification of methane emissions and oil/gas methane intensities from individual countries in the Middle East and North Africa: implications for climate action, Atmos. Chem. Phys.,23, 5945–5967, <a href="https://doi.org/10.5194/acp-23-5945-2023" target="">https://doi.org/10.5194/acp-23-5945-2023</a>, 2023.</li>
+  <li>Estrada, L.A., D.J. Varon, M. Sulprizio, H. Nesser, Z. Chen, N. Balasus, S.E. Hancock, M. He, J.D. East, T.A. Mooring, A. Oort Alonso, J.D. Maasakkers, I. Aben, S. Baray, K.W. Bowman, J.R. Worden, F.J. Cardoso-Saldaña, E. Reidy, and D.J. Jacob, Integrated Methane Inversion (IMI) 2.0: an improved research and stakeholder tool for monitoring total methane emissions with high resolution worldwide using TROPOMI satellite observations, Geoscientific Model Development, 18, 3311–3330, <a href="https://doi.org/10.5194/gmd-18-3311-2025" target-"">https://doi.org/10.5194/gmd-18-3311-2025</a>, 2025.</li>
+  <li>Hancock, S.E., D.J. Jacob, Z. Chen, H. Nesser, A. Davitt, D.J. Varon, M.P. Sulprizio, N. Balasus, L.A. Estrada, J.D. East, E. Penn, C.A. Randles, J. Worden, I. Aben, R. J. Parker, and J. D. Maasakkers, Satellite quantification of methane emissions from South American countries: A high-resolution inversion of TROPOMI and GOSAT observations, Atmos. Chem. Phys., 25, 797–817, <a href="https://doi.org/10.5194/acp-25-797-2025" target="">https://doi.org/10.5194/acp-25-797-2025</a>, 2025.</li>
+  <li>He, M., D. J. Jacob, L. Estrada, D. J. Varon, M. Sulprizio, N. Balasus, J. D. East, E. Penn, D. C. Pendergrass, Z. Chen, T. A. Mooring, J. D. Maasakkers, P. G. Brodrick, C. Frankenberg, K. W. Bowman, L. Bruhwiler: Attributing 2019-2024 methane growth using TROPOMI satellite observations, Sci. Adv., 12, eadz9007, <a href="https://doi.org/10.1126/sciadv.adz9007" target="">https://doi.org/10.1126/sciadv.adz9007</a>, 2026.</li>
+  <li>Maasakkers, J.D., D.J. Jacob, M.P. Sulprizio, T. Scarpelli, H. Nesser, J.-X. Sheng, Y. Zhang, M. Hersher, A.A. Bloom, K.W. Bowman, J.R. Worden, G. Janssens-Maenhout, and R.J. Parker, Global distribution of methane emissions, emission trends, and OH concentrations and trends inferred from an inversion of GOSAT satellite data for 2010-2015, Atmos. Chem. Phys., 19, 7859-7881, <a href="https://doi.org/10.5194/acp-19-7859-2019" target="">https://doi.org/10.5194/acp-19-7859-2019</a>, 2019.</li>
+  <li>Nesser, H., K.W. Bowman, M.D. Thill, D.J. Varon, C. Randles, A. Tewari, F.J. Cardoso-Saldana, E. Reidy, J.D. Maasakkers, and D.J. Jacob, Predicting and correcting the influence of boundary conditions in regional inverse analyses, Geosci. Model Dev., 18, 9279–9291, <a href="https://doi.org/10.5194/gmd-18-9279-2025" target="">https://doi.org/10.5194/gmd-18-9279-2025</a>, 2025.</li>
+  <li>Varon, D.J., D.J. Jacob, M. Sulprizio, L.A. Estrada, W.B. Downs, L. Shen, S.E. Hancock, H. Nesser, Z. Qu, E. Penn, Z. Chen, X. Lu, A. Lorente, A. Tewari, and C.A. Randles, Integrated Methane Inversion (IMI 1.0): A user-friendly, cloud-based facility for inferring high-resolution methane emissions from TROPOMI satellite observations, Geosci. Model Dev., <a href="https://doi.org/10.5194/gmd-15-5787-2022" target="">https://doi.org/10.5194/gmd-15-5787-2022</a>, 2022.</li>
+  <li>Varon, D.J., D.J. Jacob, B. Hmiel, R. Gautam, D.R. Lyon, M. Omara, M. Sulprizio, L. Shen, D. Pendergrass, H. Nesser, Z. Qu, Z.R. Barkley, N.L. Miles, S.J. Richardson, K.J. Davis, S. Pandey, X. Lu, A. Lorente, T. Borsdorff, J.D. Maasakkers, and I. Aben, Continuous weekly monitoring of methane emissions from the Permian Basin by inversion of TROPOMI satellite observations, Atmos. Chem. Phys., 23, 7503–7520, <a href="https://doi.org/10.5194/acp-23-7503-2023" target="">https://doi.org/10.5194/acp-23-7503-2023</a>, 2023.</li>
+  <li>Wang, X., M. P. Sulprizio, Y. Zhuge, R.V. Martin, and D. J. Jacob, Technical note: 12-km resolution capability for the global GEOS-Chem model of atmospheric composition, Atmos. Chem. Phys., 26, 6857–6867, <a href="https://doi.org/10.5194/acp-26-6857-2026" target="">https://doi.org/10.5194/acp-26-6857-2026</a>, 2026a.</li>
+  <li>Wang, X., D. J. Jacob, H. Nesser, N. Balasus, L. Estrada, M. P. Sulprizio, D. H. Cusworth, T. R. Scarpelli, Z. Chen, J. D. East, and D. J. Varon: Quantifying urban and landfill methane emissions in the United States using TROPOMI satellite data, Sci. Adv., 12, eadz9308, <a href="https://doi.org/10.1126/sciadv.adz9308" target="">https://doi.org/10.1126/sciadv.adz9308</a>, 2026b.</li>
+  <li>Zhang, D., D.J. Jacob, E.W. Lundgren, M.P. Sulprizio, N. Balasus, L.A. Estrada, E. Reidy, and D.J. Varon, Efficient computation of global high-resolution Jacobian matrices for analytical inversions of satellite observations of greenhouse gases: Application to the Integrated Methane Inversion (IMI) version 2.3, EGUsphere [preprint], <a href="https://doi.org/10.5194/egusphere-2026-4399" target="">https://doi.org/10.5194/egusphere-2026-4399</a>, 2026.</li>
+  <li>Zhang, Y., D.J. Jacob, J.D. Maasakkers, M.P. Sulprizio, J. Sheng, R. Gautam, and J. Worden, Monitoring global OH concentrations using satellite observations of atmospheric methane, Atmos. Chem. Phys., 18, 15959-15973, <a href="https://doi.org/10.5194/acp-18-15959-2018" target="">https://doi.org/10.5194/acp-18-15959-2018</a>, 2018.</li>
+</ul>
+
+
+
+</div>

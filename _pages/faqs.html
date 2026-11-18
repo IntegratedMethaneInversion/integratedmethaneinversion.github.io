@@ -1,0 +1,76 @@
+---
+layout: default
+title: FAQs
+permalink: /faqs/
+---
+
+<style>
+  .pageWrapper {
+    padding: 3% 12%;
+  }
+</style>
+
+<div class="pageWrapper">
+
+<h1>
+  <span style="color: #98c89a">FAQs</span>
+</h1>
+
+<p>This page documents frequently asked questions about the IMI.</p>
+
+<h2>What is the IMI?</h2>
+<ul>
+  <li>The IMI is an open-source software tool for quantifying methane emissions at up to 0.125°x0.15625° (≈12km2) and weekly resolution using satellite observations from the <a href="https://www.tropomi.eu/" target="">TROPOspheric Monitoring Instrument (TROPOMI)</a>, a prior estimate of emissions (e.g., a bottom-up emission inventory), and the <a href="https://geoschem.github.io/index.html" target="">GEOS-Chem chemical transport model</a>.</li>
+  <li>It uses an analytical Bayesian inversion method that starts from the prior estimate of emissions and improves it with information from the satellite observations to produce a posterior estimate with full error characterization.</li>
+  <li>It can be applied to any region and period of interest.</li>
+</ul>
+
+<h2>How do I access the IMI?</h2>
+<p>There are two ways to access the IMI</p>
+<ul>
+  <li>Use the free IMI product on the <a href="https://aws.amazon.com/marketplace/pp/prodview-hkuxx4h2vpjba" target="">Amazon Web Services (AWS) Marketplace</a>.</li>
+  <li>Download the <a href="https://github.com/geoschem/integrated_methane_inversion" target="">IMI source code</a> and run it on a local compute cluster.</li>
+</ul>
+
+<h2>How do I cite the IMI?</h2>
+<p>See our <a href="narrative.html">Narrative description and how to reference the IMI</a> page for details.</p>
+
+<h2>How much does it cost to use the IMI on AWS?</h2>
+<p>Running the IMI on AWS incurs fees for using AWS compute resources. The typical cost for a 500x500 km2 domain (e.g., the Permian Basin) for 1 month is about $20.</p>
+<p>Cost scales with duration and domain size. Costs for larger domains can be effectively mitigated using the smart clustering capability available through the IMI.</p>
+
+<h2>Where is the IMI documented?</h2>
+<p>The IMI is documented at <a href="https://imi.readthedocs.io/en/latest/" target="">imi.readthedocs.io</a>.</p>
+
+<h2>What is the IMI Preview?</h2>
+<p>The <a href="https://imi.readthedocs.io/en/latest/getting-started/imi-preview.html" target="">IMI Preview</a> is a feature for evaluating an IMI configuration without actually running an inversion. With the IMI Preview you will:</p>
+
+<ul>
+  <li>Visualize the TROPOMI observations, bottom-up emission inventories, and point source data to be used in the inversion.</li>
+  <li>Estimate the information content (degrees of freedom for signal, called DOFS) of the inversion.</li>
+  <li>Estimate the USD cost of running the inversion on AWS.</li>
+</ul>
+
+<p>The IMI Preview has no significant costs, and we strongly recommend using it to ensure that the proposed IMI configuration will lead to a successful inversion.</p>
+
+<h2>Does the IMI support continuous emission monitoring?</h2>
+<p>Yes. Users can continuously monitor emissions for a region of interest using the IMI <a href="https://imi.readthedocs.io/en/latest/advanced/kalman-filter-mode.html" target="">Kalman filter</a> feature.</p>
+
+<h2>Does the IMI support use of custom prior emission inventories?</h2>
+<p>Yes. Users can override the default IMI prior emission inventories with their own by following <a href="https://imi.readthedocs.io/en/latest/advanced/custom-prior-emissions-hemco.html" target="">these instructions</a>.</p>
+
+<h2>Can I get information on individual point sources from the IMI?</h2>
+<p>No. The IMI gives you total emissions at up to 12x12 km2 grid resolution, including all sources. However, it scrapes point source observations from other databases to improve the prior estimate (optional) and to put the total emission results in context.</p>
+
+<h2>Can I get sectoral information from the IMI?</h2>
+<p>Yes. The IMI uses prior sectoral information to allocate the posterior emission estimates to specific sectors.</p>
+
+<h2>Can I detect offshore emissions with the IMI?</h2>
+<p>Yes. Although the satellite observations are mainly over land, the IMI has the option to use glint observations over water. Offshore emissions can also be quantified from observations of the plume advected over land by onshore flow.</p>
+
+<h2>What can I get from the IMI that’s different from point source data providers (GHGSat, Carbon Mapper, Kayrros, etc.)?</h2>
+<p>The IMI is a completely different product. It provides total gridded continuous emissions, not snapshot emissions from specific point sources as from point source data providers.</p>
+<p>The IMI information is most useful for emission reporting, understanding contributions from different sectors, monitoring emission trends, and quantifying long-term averages.</p>
+<p>The IMI can now incorporate several of these point source datasets into its clustering algorithm to ensure native resolution at those locations.</p>
+
+</div>
