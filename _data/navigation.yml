@@ -2,49 +2,47 @@
 main:
   - title: "Home"
     url: /
-  - title: "Introduction"
+  - title: "About"
     children:
       - title: "Overview"
         url: /overview/
+      - title: "Referencing the IMI"
+        url: /narrative/
       - title: "IMI licensing"
         url: /licensing/
+  - title: "Code"
+    children:
+      - title: "IMI user guide"
+        url: https://imi.readthedocs.io/en/latest/
+      - title: GitHub repository
+        url: https://github.com/geoschem/integrated_methane_inversion
+      - title: "Version History"
+        url: https://github.com/geoschem/integrated_methane_inversion/releases
+      - title: "Development Priorities"
+        url: /developments/
+  - title: "People"
+    children:
       - title: "Steering Committee"
         url: /steering-committee/
       - title: "Support Team"
         url: /support-team/
-  - title: "Research"
-    children:
-      - title: "IMI Community"
+      - title: "User Community"
         url: /community/
-      - title: "Publications"
-        url: /publications/
-      - title: "Development Priorities"
-        url: /developments/
-      - title: "How to reference the IMI"
-        url: /narrative/
-  - title: "About the IMI"
+  - title: "Resources"
     children:
-      - title: "Version History"
-        url: https://github.com/geoschem/integrated_methane_inversion/releases
-      - title: "Terminology"
-        url: /terminology/
       - title: "FAQs"
-        url: /faqs/
+        url: https://imi.readthedocs.io/en/latest/getting-started/faqs.html
+      - title: "Terminology"
+        url: https://imi.readthedocs.io/en/latest/getting-started/glossary.html
+      - title: "Best Practices"
+        url: https://imi.readthedocs.io/en/latest/getting-started/best-practices.html
       - title: "Troubleshooting"
         url: /troubleshooting/
-  - title: "Docs"
-    children:
-      - title: "IMI user guide"
-        url: https://imi.readthedocs.io/en/latest/
-      - title: "GEOS-Chem Classic"
-        url: https://geos-chem.readthedocs.io/
-      - title: "GEOS-Chem High Performance (GCHP)"
-        url: https://gchp.readthedocs.io/
-      - title: "HEMCO"
-        url: https://hemco.readthedocs.io/
+      - title: "Publications"
+        url: "publications"
   - title: "Meetings"
     children:
       - title: "IMI workshop (2024)"
         url: /workshop2024/
-  - title: "Past Work"
-    url: /pastwork/
+  - title: "Dashboard"
+    url: /dashboard/
