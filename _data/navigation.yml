@@ -6,7 +6,7 @@ main:
     children:
       - title: "Overview"
         url: /overview/
-      - title: "Narrative description and how to cite the IMI"
+      - title: "Narrative description (and how to cite the IMI)"
         url: /narrative/
       - title: "IMI licensing"
         url: /licensing/
